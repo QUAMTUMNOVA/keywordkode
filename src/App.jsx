@@ -52,3 +52,7 @@ export default function App() {
     Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
   </p>
 </footer>
+
+</div>
+</main>
+);
