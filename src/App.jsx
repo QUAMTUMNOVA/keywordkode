@@ -1,75 +1,83 @@
-import React from 'react';
-
 export default function App() {
   return (
-    <div style={styles.wrapper}>
-      <header style={styles.header}>
-        <h1 style={styles.title}>KeywordKode</h1>
-        <p style={styles.tagline}>Discover trending deals, tools & keyword-powered recommendations</p>
-      </header>
-
-      <main style={styles.main}>
-        <section style={styles.section}>
-          <h2>About This Site</h2>
-          <p>
-            KeywordKode is an AI-driven platform curating the most relevant tools, products, and offers across the internet — powered by the power of keyword research and automation.
-          </p>
-        </section>
-
-        <section style={styles.section}>
-          <h2>Launch Coming Soon</h2>
-          <p>
-            Our full experience is launching soon. In the meantime, this site may contain affiliate links to partner offers.
-          </p>
-        </section>
-      </main>
-
-      <footer style={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} KeywordKode. All rights reserved.</p>
-        <p style={{ fontSize: '0.8rem', opacity: 0.6 }}>
-          Powered by QUANTUMNOVA
+    <div style={styles.body}>
+      <div style={styles.container}>
+        <h1 style={styles.heading}>KeywordKode</h1>
+        <p style={styles.tagline}>
+          Discover trending tools, deals & keyword-powered recommendations
         </p>
-      </footer>
+
+        <div style={styles.card}>
+          <h2 style={styles.subheading}>About This Site</h2>
+          <p style={styles.text}>
+            KeywordKode is an AI-powered platform curating the most relevant tools, products,
+            and deals across the web — driven by keyword trends and search automation.
+          </p>
+        </div>
+
+        <div style={styles.card}>
+          <h2 style={styles.subheading}>Launch Coming Soon</h2>
+          <p style={styles.text}>
+            Our full experience is launching shortly. For now, some pages may contain affiliate
+            links to partner offers.
+          </p>
+        </div>
+
+        <footer style={styles.footer}>
+          &copy; 2025 KeywordKode. All rights reserved.
+        </footer>
+      </div>
     </div>
   );
 }
 
 const styles = {
-  wrapper: {
-    fontFamily: 'Arial, sans-serif',
-    color: '#fff',
-    backgroundColor: '#0c0c1e',
+  body: {
+    margin: 0,
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    backgroundColor: '#0b0c1a',
+    color: '#d6fbe9',
     minHeight: '100vh',
     padding: '2rem',
-    lineHeight: '1.6',
+    display: 'flex',
+    justifyContent: 'center',
+    boxSizing: 'border-box',
   },
-  header: {
+  container: {
+    maxWidth: '700px',
+    width: '100%',
     textAlign: 'center',
-    marginBottom: '2rem',
   },
-  title: {
-    fontSize: '2.8rem',
-    color: '#3ef2c6',
+  heading: {
+    fontSize: '2.5rem',
+    color: '#78ffd6',
+    marginBottom: '0.5rem',
   },
   tagline: {
-    fontSize: '1.2rem',
-    color: '#ccc',
-  },
-  main: {
-    maxWidth: '700px',
-    margin: '0 auto',
-  },
-  section: {
+    fontSize: '1.1rem',
+    color: '#b2ffe1',
     marginBottom: '2rem',
-    backgroundColor: '#191932',
-    padding: '1.5rem',
-    borderRadius: '8px',
-    boxShadow: '0 0 10px rgba(0,0,0,0.4)',
+  },
+  card: {
+    backgroundColor: '#17182d',
+    padding: '1.5rem 2rem',
+    borderRadius: '12px',
+    boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
+    marginBottom: '1.5rem',
+  },
+  subheading: {
+    marginTop: 0,
+    fontSize: '1.4rem',
+    color: '#d6fbe9',
+  },
+  text: {
+    color: '#a7c3b8',
+    fontSize: '0.95rem',
+    margin: '0.5rem 0 0',
   },
   footer: {
-    textAlign: 'center',
     marginTop: '3rem',
-    borderTop: '1px solid #333',
-    paddingTop: '1rem',
+    fontSize: '0.8rem',
+    color: '#555',
   },
 };
