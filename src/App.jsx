@@ -1,57 +1,55 @@
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0c0c1d] text-white">
-      <main className="flex-grow flex flex-col items-center justify-center px-4 py-10">
-        <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold text-center mb-6">KeywordKode</h1>
-          <p className="text-center text-lg mb-10">
+    <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10 flex justify-center items-start">
+      <div className="w-full max-w-4xl space-y-10">
+        {/* Header */}
+        <header className="text-center">
+          <h1 className="text-4xl font-bold mb-2">KeywordKode</h1>
+          <p className="text-lg text-gray-300">
             Discover trending tools, deals & keyword-powered recommendations
           </p>
+        </header>
 
-          <div className="space-y-6">
-            <section className="bg-[#16162d] rounded-xl shadow-md p-6">
-              <h2 className="text-xl font-semibold mb-2">About This Site</h2>
-              <p className="text-sm">
-                KeywordKode is an AI-powered platform curating the most relevant tools, products,
-                and deals across the web — driven by keyword trends and search automation.
-              </p>
-            </section>
+        {/* About Section */}
+        <section className="bg-[#161628] p-6 rounded-xl shadow-md">
+          <h2 className="text-2xl font-semibold mb-2">About This Site</h2>
+          <p className="text-gray-300">
+            KeywordKode is an AI-powered platform curating the most relevant tools, products, and deals across the web — driven by keyword trends and search automation.
+          </p>
+        </section>
 
-            <section className="bg-[#16162d] rounded-xl shadow-md p-6">
-              <h2 className="text-xl font-semibold mb-2">Launch Coming Soon</h2>
-              <p className="text-sm">
-                Our full experience is launching shortly. For now, some pages may contain affiliate
-                links to partner offers.
-              </p>
-            </section>
-          </div>
-        </div>
-      </main>
+        {/* Launch Section */}
+        <section className="bg-[#161628] p-6 rounded-xl shadow-md">
+          <h2 className="text-2xl font-semibold mb-2">Launch Coming Soon</h2>
+          <p className="text-gray-300">
+            Our full experience is launching shortly. For now, some pages may contain affiliate links to partner offers.
+          </p>
+        </section>
 
-      <footer className="bg-[#0c0c1d] text-center text-xs text-gray-400 py-6 space-y-2">
-        <p>© 2025 KeywordKode. All rights reserved.</p>
-        <p>
-          Powered by{" "}
-          <a
-            href="https://quantumnova.com.au"
-            className="text-green-300 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            QUANTUMNOVA
-          </a>
-        </p>
-        <div className="text-xs text-gray-500">
+        {/* Footer */}
+        <footer className="text-sm text-gray-400 text-center pt-6 border-t border-gray-700 space-y-1">
+          <p>© 2025 KeywordKode. All rights reserved.</p>
+          <p>
+            Powered by{" "}
+            <a
+              href="https://quantumnova.com.au"
+              className="text-teal-300 font-semibold hover:underline"
+            >
+              QUANTUMNOVA
+            </a>
+          </p>
           <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
           <p>Registered in Australia | ABN 43686016526</p>
-          <a
-            href="mailto:admin@quantumnova.com.au"
-            className="text-green-200 hover:underline"
-          >
-            admin@quantumnova.com.au
-          </a>
-        </div>
-      </footer>
-    </div>
+          <p>
+            <a
+              href="mailto:admin@quantumnova.com.au"
+              className="text-teal-300 hover:underline"
+            >
+              admin@quantumnova.com.au
+            </a>
+          </p>
+        </footer>
+      </div>
+    </main>
   );
 }
