@@ -9,7 +9,60 @@ export default function App() {
         "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/d34e8d23a9c01cbb3c6f46ec054aef58.jpg?imageView2/2/w/800/q/70",
       link: "https://temu.to/k/uo4zp3xk1nm",
     },
-    // Add more products here as needed
+    {
+      title: "1Pc Aluminum Non-Stick Burger Press",
+      description:
+        "Includes 100 patty papers, BPA free, dishwasher safe — a kitchen essential for perfect burgers.",
+      price: "AU$7.09",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/31f3b7399793a4fe0711f60a65c98434.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/ummn9y2forq",
+    },
+    {
+      title: "3.16 Inch Dual Dash Cam",
+      description:
+        "1080P front and cabin infrared night vision, motion sensor parking mode, loop recording.",
+      price: "AU$3.36",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/48be9a52b4904a97cb08e53c36049a40.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/uq5mp7evlsv",
+    },
+    {
+      title: "Men's Casual Color Block Half-Zip Sweater",
+      description:
+        "Loose fit, long sleeve pullover with stand collar & patchwork design — perfect for spring/fall.",
+      price: "AU$1.39",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/5466b398cf7e1cb680b645905a4c07e1.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/upte1fp8ove",
+    },
+    {
+      title: "Cordless Rotary Tool",
+      description:
+        "Rechargeable engraving pen with adjustable speed, ideal for wood, etching, sanding, polishing.",
+      price: "AU$3.69",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/3a92b6d67e38e17f72a4761a6f9a03dc.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/uh15ulei996",
+    },
+    {
+      title: "Men's Vintage Crossbody Bag",
+      description:
+        "WEIXIER shoulder satchel — business casual design, perfect for daily use or gifting.",
+      price: "AU$1.39",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/36c5f5db0d4b408cbf4a5a2126f1186a.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/u9893t7qoor",
+    },
+    {
+      title: "Portable Handheld Gaming Console",
+      description:
+        "64GB TF Card, 3.5-Inch HD screen, long battery life — supports multiple languages and retro gaming.",
+      price: "AU$34.46",
+      image:
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/09a77a626f1b4240b6be0e2f9f2c6db3.jpg?imageView2/2/w/800/q/70",
+      link: "https://temu.to/k/ugkzy11jd9q",
+    },
   ];
 
   return (
