@@ -27,29 +27,28 @@ export default function App() {
         </section>
 
         {/* Footer */}
-        <footer className="text-sm text-gray-400 text-center pt-6 border-t border-gray-700 space-y-1">
-          <p>© 2025 KeywordKode. All rights reserved.</p>
-          <p>
-            Powered by{" "}
-            <a
-              href="https://quantumnova.com.au"
-              className="text-teal-300 font-semibold hover:underline"
-            >
-              QUANTUMNOVA
-            </a>
-          </p>
-          <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
-          <p>Registered in Australia | ABN 43686016526</p>
-          <p>
-            <a
-              href="mailto:admin@quantumnova.com.au"
-              className="text-teal-300 hover:underline"
-            >
-              admin@quantumnova.com.au
-            </a>
-          </p>
-        </footer>
-      </div>
-    </main>
-  );
-}
+<footer className="text-sm text-gray-400 text-center pt-6 border-t border-gray-700 space-y-1">
+  <p>© 2025 KeywordKode. All rights reserved.</p>
+  <p>
+    Powered by{" "}
+    <a
+      href="https://quantumnova.com.au"
+      className="text-teal-300 font-semibold hover:underline"
+    >
+      QUANTUMNOVA
+    </a>
+  </p>
+  <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
+  <p>Registered in Australia | ABN 43686016526</p>
+  <p>
+    <a
+      href="mailto:admin@quantumnova.com.au"
+      className="text-teal-300 hover:underline"
+    >
+      admin@quantumnova.com.au
+    </a>
+  </p>
+  <p className="pt-2 text-gray-500 italic">
+    Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
+  </p>
+</footer>
