@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
   <url>
-    <loc>https://keywordkode.com/</loc>
-    <lastmod>2025-04-14</lastmod>
+    <loc>https://keywordkode.com.au/</loc>
+    <lastmod>2025-04-15</lastmod>
+    <priority>1.0</priority>
   </url>
+
+  <!-- Blog -->
   <url>
     <loc>https://keywordkode.com/blog</loc>
     <lastmod>2025-04-14</lastmod>
   </url>
+
+  <!-- Tools -->
   <url>
     <loc>https://keywordkode.com/tools</loc>
     <lastmod>2025-04-14</lastmod>
   </url>
+
+  <!-- Contact -->
   <url>
     <loc>https://keywordkode.com/contact</loc>
     <lastmod>2025-04-14</lastmod>
