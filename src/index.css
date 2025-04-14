@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: global base style tweaks */
+/* Global base style tweaks */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,15 +15,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Global overrides */
+/* Global styles */
 body {
-  @apply bg-[#0c0c1d] text-white m-0 min-h-screen w-full;
+  @apply bg-[#0c0c1d] text-white m-0 min-h-screen w-full flex justify-center items-start py-10 px-4;
 }
 
+/* Typography */
 h1 {
-  @apply text-4xl font-bold leading-tight;
+  @apply text-4xl font-bold leading-tight text-center mb-4;
 }
 
+p {
+  @apply text-sm md:text-base;
+}
+
+/* Links */
 a {
   @apply font-medium text-blue-400 no-underline;
 }
@@ -31,6 +37,7 @@ a:hover {
   @apply text-blue-300;
 }
 
+/* Buttons */
 button {
   @apply rounded-lg border border-transparent px-4 py-2 text-base font-medium bg-[#1a1a1a] transition-colors duration-200 cursor-pointer;
 }
@@ -44,7 +51,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Light theme override (optional if dark only) */
+/* Light mode override (optional) */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
