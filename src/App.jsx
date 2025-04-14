@@ -24,7 +24,18 @@ export default function App() {
         </div>
 
         <footer style={styles.footer}>
-          &copy; 2025 KeywordKode. All rights reserved.
+          <p>&copy; 2025 KeywordKode. All rights reserved.</p>
+          <p>
+            Powered by{" "}
+            <a
+              href="https://quantumnova.com.au"
+              style={styles.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              QUANTUMNOVA
+            </a>
+          </p>
         </footer>
       </div>
     </div>
@@ -44,17 +55,17 @@ const styles = {
     boxSizing: 'border-box',
   },
   container: {
-    maxWidth: '700px',
+    maxWidth: '800px',
     width: '100%',
     textAlign: 'center',
   },
   heading: {
-    fontSize: '2.5rem',
+    fontSize: '3rem',
     color: '#78ffd6',
     marginBottom: '0.5rem',
   },
   tagline: {
-    fontSize: '1.1rem',
+    fontSize: '1.2rem',
     color: '#b2ffe1',
     marginBottom: '2rem',
   },
@@ -64,6 +75,7 @@ const styles = {
     borderRadius: '12px',
     boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
     marginBottom: '1.5rem',
+    textAlign: 'left',
   },
   subheading: {
     marginTop: 0,
@@ -72,12 +84,19 @@ const styles = {
   },
   text: {
     color: '#a7c3b8',
-    fontSize: '0.95rem',
+    fontSize: '1rem',
     margin: '0.5rem 0 0',
   },
   footer: {
     marginTop: '3rem',
-    fontSize: '0.8rem',
-    color: '#555',
+    fontSize: '0.85rem',
+    color: '#777',
+    textAlign: 'center',
+    lineHeight: '1.6',
+  },
+  link: {
+    color: '#78ffd6',
+    textDecoration: 'none',
+    fontWeight: 'bold',
   },
 };
