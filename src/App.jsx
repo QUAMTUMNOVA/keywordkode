@@ -1,35 +1,75 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div style={styles.wrapper}>
+      <header style={styles.header}>
+        <h1 style={styles.title}>KeywordKode</h1>
+        <p style={styles.tagline}>Discover trending deals, tools & keyword-powered recommendations</p>
+      </header>
+
+      <main style={styles.main}>
+        <section style={styles.section}>
+          <h2>About This Site</h2>
+          <p>
+            KeywordKode is an AI-driven platform curating the most relevant tools, products, and offers across the internet — powered by the power of keyword research and automation.
+          </p>
+        </section>
+
+        <section style={styles.section}>
+          <h2>Launch Coming Soon</h2>
+          <p>
+            Our full experience is launching soon. In the meantime, this site may contain affiliate links to partner offers.
+          </p>
+        </section>
+      </main>
+
+      <footer style={styles.footer}>
+        <p>&copy; {new Date().getFullYear()} KeywordKode. All rights reserved.</p>
+        <p style={{ fontSize: '0.8rem', opacity: 0.6 }}>
+          Powered by QUANTUMNOVA
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      </footer>
+    </div>
+  );
 }
 
-export default App
+const styles = {
+  wrapper: {
+    fontFamily: 'Arial, sans-serif',
+    color: '#fff',
+    backgroundColor: '#0c0c1e',
+    minHeight: '100vh',
+    padding: '2rem',
+    lineHeight: '1.6',
+  },
+  header: {
+    textAlign: 'center',
+    marginBottom: '2rem',
+  },
+  title: {
+    fontSize: '2.8rem',
+    color: '#3ef2c6',
+  },
+  tagline: {
+    fontSize: '1.2rem',
+    color: '#ccc',
+  },
+  main: {
+    maxWidth: '700px',
+    margin: '0 auto',
+  },
+  section: {
+    marginBottom: '2rem',
+    backgroundColor: '#191932',
+    padding: '1.5rem',
+    borderRadius: '8px',
+    boxShadow: '0 0 10px rgba(0,0,0,0.4)',
+  },
+  footer: {
+    textAlign: 'center',
+    marginTop: '3rem',
+    borderTop: '1px solid #333',
+    paddingTop: '1rem',
+  },
+};
