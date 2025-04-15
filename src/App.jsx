@@ -1,14 +1,18 @@
-// App.jsx
+// App.jsx with Pagination + Category Pages + Footer
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useParams, useSearchParams, useNavigate } from 'react-router-dom';
 
 const temuProducts = [
-  // [... Insert all 17 products including new additions ...]
+  // [... all 17 products ...]
 ];
 
 const categories = ['All', 'Tech', 'Home', 'Fashion'];
+const ITEMS_PER_PAGE = 9;
 
 function ProductGrid({ filterCategory }) {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const page = parseInt(searchParams.get('page') || '1');
+  const navigate = useNavigate();
   const [sortOrder, setSortOrder] = useState('asc');
 
   const filteredProducts = temuProducts
@@ -19,22 +23,45 @@ function ProductGrid({ filterCategory }) {
       return sortOrder === 'asc' ? priceA - priceB : priceB - priceA;
     });
 
+  const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
+  const currentPageProducts = filteredProducts.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
+
+  const goToPage = (newPage) => {
+    setSearchParams({ page: newPage });
+  };
+
   return (
     <div className="space-y-6">
-      <div className="flex justify-end gap-3">
-        <span className="text-sm text-gray-400">Sort by price:</span>
-        <button onClick={() => setSortOrder('asc')} className="text-sm text-teal-300 hover:underline">Low to High</button>
-        <button onClick={() => setSortOrder('desc')} className="text-sm text-teal-300 hover:underline">High to Low</button>
+      <div className="flex justify-between flex-wrap items-center gap-4">
+        <div className="flex gap-3 items-center">
+          <span className="text-sm text-gray-400">Sort by price:</span>
+          <button onClick={() => setSortOrder('asc')} className="text-sm text-teal-300 hover:underline">Low to High</button>
+          <button onClick={() => setSortOrder('desc')} className="text-sm text-teal-300 hover:underline">High to Low</button>
+        </div>
+        <div className="text-sm text-gray-400">Page {page} of {totalPages}</div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {filteredProducts.map(product => (
+        {currentPageProducts.map(product => (
           <div key={product.id} className="bg-[#161628] rounded-xl p-4 shadow-md hover:shadow-lg">
             <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-md mb-3" />
             <h3 className="text-lg font-bold mb-1">{product.name}</h3>
             <p className="text-yellow-400 font-semibold">{product.price}</p>
             <a href={product.link} target="_blank" rel="noopener noreferrer" className="inline-block mt-3 text-teal-300 font-semibold hover:underline">View Deal</a>
           </div>
+        ))}
+      </div>
+
+      {/* Pagination Controls */}
+      <div className="flex justify-center gap-3 pt-6">
+        {Array.from({ length: totalPages }, (_, i) => (
+          <button
+            key={i + 1}
+            onClick={() => goToPage(i + 1)}
+            className={`px-3 py-1 rounded ${page === i + 1 ? 'bg-teal-500 text-black' : 'bg-[#1a1a2e] text-white'}`}
+          >
+            {i + 1}
+          </button>
         ))}
       </div>
     </div>
@@ -47,23 +74,11 @@ function Footer() {
       <p>© 2025 KeywordKode. All rights reserved.</p>
       <p>
         Powered by{' '}
-        <a
-          href="https://quantumnova.com.au"
-          className="text-teal-300 font-semibold hover:underline"
-        >
-          QUANTUMNOVA
-        </a>
+        <a href="https://quantumnova.com.au" className="text-teal-300 font-semibold hover:underline">QUANTUMNOVA</a>
       </p>
       <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
       <p>Registered in Australia | ABN 43686016526</p>
-      <p>
-        <a
-          href="mailto:admin@quantumnova.com.au"
-          className="text-teal-300 hover:underline"
-        >
-          admin@quantumnova.com.au
-        </a>
-      </p>
+      <p><a href="mailto:admin@quantumnova.com.au" className="text-teal-300 hover:underline">admin@quantumnova.com.au</a></p>
       <p className="pt-2 text-gray-500 italic">
         Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
       </p>
