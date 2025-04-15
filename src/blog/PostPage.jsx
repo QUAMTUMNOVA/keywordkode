@@ -1,10 +1,20 @@
+import { useParams } from 'react-router-dom';
+import { posts } from './posts';
+import { marked } from 'marked';
 import { Helmet } from 'react-helmet';
 
 export default function PostPage() {
   const { slug } = useParams();
   const post = posts.find(p => p.slug === slug);
 
-  if (!post) return <div className="text-white p-8">Post not found.</div>;
+  if (!post) {
+    return (
+      <main className="text-white p-8 bg-[#0c0c1d] min-h-screen">
+        <h1 className="text-3xl font-bold text-red-500">Post not found</h1>
+        <p className="text-gray-400 mt-2">The blog post you’re looking for doesn’t exist.</p>
+      </main>
+    );
+  }
 
   return (
     <main className="bg-[#0c0c1d] text-white px-4 py-12 min-h-screen">
@@ -17,6 +27,7 @@ export default function PostPage() {
         <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className="max-w-4xl mx-auto space-y-6">
         <div>
           <h1 className="text-3xl font-bold mb-1">{post.title}</h1>
