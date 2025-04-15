@@ -6,7 +6,7 @@ const temuProducts = [
     name: 'Geevon Weather Station',
     price: 'AU$34.63',
     link: 'https://temu.to/k/uo4zp3xk1nm',
-    image: 'https://img.kwcdn.com/product/1ac287f0b916a3cd4213f5a72f4f0dd6.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/geevon-weather-station.jpg',
     category: 'Home'
   },
   {
@@ -14,7 +14,7 @@ const temuProducts = [
     name: 'Non-Stick Burger Press + 100 Papers',
     price: 'AU$7.09',
     link: 'https://temu.to/k/ummn9y2forq',
-    image: 'https://img.kwcdn.com/product/29f297e58b5db2d5e168e8f2030035dd.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/non-stick-burger-press.jpg',
     category: 'Home'
   },
   {
@@ -22,7 +22,7 @@ const temuProducts = [
     name: 'Dual Dash Cam - Night Vision + Parking Mode',
     price: 'AU$3.36',
     link: 'https://temu.to/k/uq5mp7evlsv',
-    image: 'https://img.kwcdn.com/product/daf09a6ac1784f2280849d0423cd44e1.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/dual-dash-cam.jpg',
     category: 'Tech'
   },
   {
@@ -30,7 +30,7 @@ const temuProducts = [
     name: 'Men’s Color Block Half-Zip Sweater',
     price: 'AU$1.39',
     link: 'https://temu.to/k/upte1fp8ove',
-    image: 'https://img.kwcdn.com/product/66c2f3b169a2d6884732eb1639a9e1a3.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/mens-color-block.jpg',
     category: 'Fashion'
   },
   {
@@ -38,7 +38,7 @@ const temuProducts = [
     name: 'Cordless Engraving Rotary Tool',
     price: 'AU$3.69',
     link: 'https://temu.to/k/uh15ulei996',
-    image: 'https://img.kwcdn.com/product/93e65a8ef6b9e189aa4aeb438216054d.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/cordless-engraving-rotary.jpg',
     category: 'Tech'
   },
   {
@@ -46,18 +46,11 @@ const temuProducts = [
     name: 'Men’s Vintage Crossbody Satchel',
     price: 'AU$1.39',
     link: 'https://temu.to/k/u9893t7qoor',
-    image: 'https://img.kwcdn.com/product/cc437740775a66b27a1c6bc4ffdb918c.jpeg?imageView2/2/w/600/q/80',
+    image: '/public/mens-vintage-crossbody.jpg',
     category: 'Fashion'
-  },
-  {
-    id: 7,
-    name: 'Portable Handheld Gaming Console',
-    price: 'AU$34.46',
-    link: 'https://temu.to/k/ugkzy11jd9q',
-    image: 'https://img.kwcdn.com/product/418a7fd3785a98c2747a0649b898ed4a.jpeg?imageView2/2/w/600/q/80',
-    category: 'Tech'
   }
 ];
+
 
 export default function App() {
   const [category, setCategory] = useState('All');
