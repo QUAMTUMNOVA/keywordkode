@@ -147,7 +147,17 @@ function Footer() {
 
 function CategoryPage() {
   const { category } = useParams();
-  const pageCategory = category.charAt(0).toUpperCase() + category.slice(1);
+
+  // Map URL slugs to actual category names
+  const categoryMap = {
+    tech: 'Tech',
+    home: 'Home',
+    fashion: 'Fashion',
+    tools: 'Tools',
+    all: 'All'
+  };
+
+  const pageCategory = categoryMap[category?.toLowerCase()] || 'All';
 
   return (
     <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10">
@@ -168,6 +178,7 @@ function CategoryPage() {
     </main>
   );
 }
+
 
 function HomePage() {
   return (
