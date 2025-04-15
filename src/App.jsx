@@ -10,6 +10,9 @@ import {
   useNavigate
 } from 'react-router-dom';
 
+import BlogPage from './blog/BlogPage';
+import PostPage from './blog/PostPage';
+
 
 const temuProducts = [
   {
