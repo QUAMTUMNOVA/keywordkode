@@ -48,8 +48,49 @@ const temuProducts = [
     link: 'https://temu.to/k/u9893t7qoor',
     image: '/mens-vintage-crossbody.jpg',
     category: 'Fashion'
+  },
+  {
+    id: 7,
+    name: "Men's Breathable Hiking Sandals",
+    price: 'AU$3.55',
+    link: 'https://temu.to/k/uooojb1zw9m',
+    image: '/mens-breathable-hiking.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 8,
+    name: "Men's Vintage Ankle Boots with Zipper",
+    price: 'AU$10.16',
+    link: 'https://temu.to/k/ujbvh940bsi',
+    image: '/mens-ankle-boots.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 9,
+    name: 'Xbox Series X Cooling Stand + Charging Hub',
+    price: 'AU$25.96',
+    link: 'https://temu.to/k/uxer7hwfz7n',
+    image: '/xbox-cooling-stand.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 10,
+    name: 'Professional Multi-Tool Car Repair Kit',
+    price: 'AU$32.54',
+    link: 'https://temu.to/k/ujqucf79px2',
+    image: '/car-repair.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 11,
+    name: '1:18 High-Speed Off-Road RC Car – 15KM/H',
+    price: 'AU$3.59',
+    link: 'https://temu.to/k/uj0j50zjdxu',
+    image: '/high-speed.jpg',
+    category: 'Tech'
   }
 ];
+
 
 
 export default function App() {
