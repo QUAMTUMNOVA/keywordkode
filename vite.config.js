@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-helmet-async', 'bufferutil', 'utf-8-validate'],
+      external: ['bufferutil', 'utf-8-validate'], 
     },
   },
 })
