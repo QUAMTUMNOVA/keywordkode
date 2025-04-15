@@ -249,11 +249,11 @@ function Footer() {
         Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
       </p>
       <p className="pt-2 text-gray-500">
-        <a href="/privacy.html" className="hover:underline text-teal-300">Privacy Policy</a> |
-        <a href="/refund.html" className="hover:underline text-teal-300">Refund Policy</a> |
-        <a href="/terms.html" className="hover:underline text-teal-300">Terms & Conditions</a>
-      </p>
-    </footer>
+  <a href="/privacy.html" className="hover:underline text-teal-300">Privacy Policy</a> |
+  <a href="/refund.html" className="hover:underline text-teal-300">Refund Policy</a> |
+  <a href="/terms.html" className="hover:underline text-teal-300">Terms & Conditions</a> |
+  <a href="/rss.xml" className="hover:underline text-teal-300">RSS</a>
+</p>
   );
 }
 

@@ -1,4 +1,6 @@
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import { posts } from './posts';
 
 export default function BlogPage() {
   return (
@@ -11,8 +13,15 @@ export default function BlogPage() {
         <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className="max-w-4xl mx-auto space-y-8">
         <h1 className="text-3xl font-bold text-center">KeywordKode Blog</h1>
+        <p className="text-center text-sm text-gray-400">
+          <a href="/rss.xml" className="text-teal-300 hover:underline">
+            Subscribe via RSS
+          </a>
+        </p>
+
         {posts.map(post => (
           <div key={post.slug} className="border-b border-gray-700 pb-4">
             <h2 className="text-xl font-bold">

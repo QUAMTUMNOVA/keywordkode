@@ -1,3 +1,4 @@
+// 📄 blog/posts.js — updated with second blog post
 export const posts = [
   {
     slug: "top-10-temu-tech-deals",
@@ -25,6 +26,34 @@ Insane value for Bluetooth 5.0 earbuds with a digital charge case. Touch control
 
 ---
 Want more like this? Visit [KeywordKode Home](/) or check back as we continue surfacing the best Temu drops.
+`
+  },
+  {
+    slug: "temu-fashion-finds-under-5",
+    title: "Temu Fashion Finds Under $5 That Are Shockingly Good",
+    author: "KeywordKode Team",
+    date: "April 16, 2025",
+    description: "These fashion picks prove that style doesn’t have to be expensive. Our top-rated pieces from Temu — all under AU$5.",
+    content: `
+Style doesn’t need a high price tag — just scroll Temu. We’ve found **3 killer fashion picks** under **AU$5** that’ll have your mates asking where you shop.
+
+### 1. Men’s Color Block Half-Zip Sweater
+👕 *AU$1.39* → [View Deal](https://temu.to/k/upte1fp8ove)
+
+Warm, comfy, and surprisingly high-quality. This one’s a no-brainer if you're layering up.
+
+### 2. Men’s Vintage Crossbody Satchel
+👜 *AU$1.39* → [Buy It](https://temu.to/k/u9893t7qoor)
+
+Practical, lightweight, and weirdly aesthetic. A daily driver for your phone, wallet, and headphones.
+
+### 3. Men's Blade Sneakers
+👟 *AU$0.99* → [Snag the kicks](https://temu.to/k/usir8cs190v)
+
+Breathable. Light. Eye-catching. You’d expect these to cost $60. Nope — not even $5.
+
+---
+Craving more fits for less? We’ll drop new Temu fashion roundups every week. Stay tuned or hit that [RSS feed](/rss.xml) to stay fresh.
 `
   }
 ];

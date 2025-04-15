@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>KeywordKode Blog</title>
+    <link>https://keywordkode.com.au/blog</link>
+    <description>Daily curated Temu tools, tech, fashion, and AI-powered product drops.</description>
+    <language>en-au</language>
+    <lastBuildDate>Tue, 15 Apr 2025 12:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Top 3 Temu Tech Deals Under $10 in 2025</title>
+      <link>https://keywordkode.com.au/blog/top-10-temu-tech-deals</link>
+      <description>Explore the best-value tech gear Temu has to offer, all for under ten bucks.</description>
+      <pubDate>Tue, 15 Apr 2025 10:00:00 +0000</pubDate>
+      <guid>https://keywordkode.com.au/blog/top-10-temu-tech-deals</guid>
+    </item>
+    <item>
+      <title>Temu Fashion Finds Under $5 That Are Shockingly Good</title>
+      <link>https://keywordkode.com.au/blog/temu-fashion-finds-under-5</link>
+      <description>These fashion picks prove that style doesn’t have to be expensive. Our top-rated pieces from Temu — all under AU$5.</description>
+  <pubDate>Wed, 16 Apr 2025 08:00:00 +0000</pubDate>
+  <guid>https://keywordkode.com.au/blog/temu-fashion-finds-under-5</guid>
+</item>
+
+  </channel>
+</rss>
