@@ -64,6 +64,24 @@ const temuProducts = [
   { id: 28, name: "Industrial Endoscope Camera – 4.3\" LCD, Plumbing/Repair", price: 'AU$33.36', link: 'https://temu.to/k/uamtwsafx3g', image: '/endoscope.jpg', category: 'Tech' }
 ];
 
+function EbayDeals() {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-10">
+      <a href="https://www.ebay.com/e/home-garden/certified-refurbished-outdoor-power-equipment?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Refurbished Outdoor Power</h3>
+        <p className="text-yellow-400">Up to 60% Off</p>
+      </a>
+      <a href="https://www.ebay.com/e/fashion/ag-mens-wallets-042722?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Men's Wallets</h3>
+        <p className="text-yellow-400">Genuine Luxury</p>
+      </a>
+      <a href="https://www.ebay.com/e/fashion/ag-handbags-tom-ford-100322?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Tom Ford Bags</h3>
+        <p className="text-yellow-400">Authenticity Guarantee</p>
+      </a>
+    </div>
+  );
+}
 
 function ProductGrid({ filterCategory }) {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -209,6 +227,13 @@ function HomePage() {
         </div>
 
         <ProductGrid filterCategory="All" />
+        <EbayDeals />
+
+        <Footer />
+      </div>
+    </main>
+  );
+}
         <Footer />
       </div>
     </main>
