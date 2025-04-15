@@ -9,19 +9,37 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://keywordkode.com/blog</loc>
+    <loc>https://keywordkode.com.au/blog</loc>
     <lastmod>2025-04-14</lastmod>
   </url>
 
   <!-- Tools -->
   <url>
-    <loc>https://keywordkode.com/tools</loc>
+    <loc>https://keywordkode.com.au/tools</loc>
     <lastmod>2025-04-14</lastmod>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://keywordkode.com/contact</loc>
+    <loc>https://keywordkode.com.au/contact</loc>
     <lastmod>2025-04-14</lastmod>
+  </url>
+
+  <!-- Privacy -->
+  <url>
+    <loc>https://keywordkode.com.au/privacy.html</loc>
+    <lastmod>2025-04-15</lastmod>
+  </url>
+
+  <!-- Refund -->
+  <url>
+    <loc>https://keywordkode.com.au/refund.html</loc>
+    <lastmod>2025-04-15</lastmod>
+  </url>
+
+  <!-- Terms -->
+  <url>
+    <loc>https://keywordkode.com.au/terms.html</loc>
+    <lastmod>2025-04-15</lastmod>
   </url>
 </urlset>
