@@ -1,4 +1,3 @@
-// 📄 blog/posts.js — updated with second blog post
 export const posts = [
   {
     slug: "top-10-temu-tech-deals",
@@ -55,15 +54,14 @@ Breathable. Light. Eye-catching. You’d expect these to cost $60. Nope — not 
 ---
 Craving more fits for less? We’ll drop new Temu fashion roundups every week. Stay tuned or hit that [RSS feed](/rss.xml) to stay fresh.
 `
-  }
-];
-{
-  slug: "top-5-diy-temu-tools",
-  title: "Top 5 Viral DIY Tools on Temu You Didn’t Know You Needed",
-  author: "KeywordKode Team",
-  date: "April 16, 2025",
-  description: "Uncover the most viral, budget-friendly DIY tools trending on Temu right now — all under $35!",
-  content: `
+  },
+  {
+    slug: "top-5-diy-temu-tools",
+    title: "Top 5 Viral DIY Tools on Temu You Didn’t Know You Needed",
+    author: "KeywordKode Team",
+    date: "April 16, 2025",
+    description: "Uncover the most viral, budget-friendly DIY tools trending on Temu right now — all under $35!",
+    content: `
 Temu is quietly becoming a **DIYer's dream zone** — whether you're fixing, building, or just vibing in your shed with tools that look futuristic and cost next to nothing.
 
 Here's our **top 5 viral tools** that are blowing up right now (and won't blow your budget):
@@ -126,4 +124,5 @@ Want more weirdly satisfying Temu finds?
 ---
 *As always, prices may change — get in while the deals are 🔥.*
 `
-}
+  }
+];
