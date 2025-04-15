@@ -1,6 +1,6 @@
 // App.jsx — Fully Functional with 17 Products, Pagination, Category Routing & Footer
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams, useSearchParams } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useParams, useSearchParams,  useNavigate } from 'react-router-dom';
 
 const temuProducts = [
   {
