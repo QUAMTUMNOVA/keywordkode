@@ -12,6 +12,8 @@ import {
 
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
+import { HelmetProvider } from 'react-helmet-async';
+
 
 function SiteHeader() {
   return (
@@ -255,11 +257,22 @@ function Footer() {
   );
 }
 
+import { Helmet } from 'react-helmet-async';
+
 function CategoryPage() {
   const { category } = useParams();
   const pageCategory = category.charAt(0).toUpperCase() + category.slice(1);
+
   return (
     <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10">
+      <Helmet>
+        <title>{pageCategory} Deals – KeywordKode</title>
+        <meta name="description" content={`Explore trending ${pageCategory.toLowerCase()} items on Temu under $10.`} />
+        <meta property="og:title" content={`${pageCategory} Deals – KeywordKode`} />
+        <meta property="og:url" content={`https://keywordkode.com.au/${category}`} />
+        <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="w-full max-w-6xl mx-auto space-y-8">
         <SiteHeader />
         <h2 className="text-2xl font-bold mb-4">{pageCategory} Deals</h2>
@@ -270,9 +283,21 @@ function CategoryPage() {
   );
 }
 
+
+import { Helmet } from 'react-helmet-async';
+
 function HomePage() {
   return (
     <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10">
+      <Helmet>
+        <title>KeywordKode – Trending Temu Deals & Picks</title>
+        <meta name="description" content="Explore viral products under $10 from Temu. Updated daily. Tech, fashion, home & tools." />
+        <meta property="og:title" content="KeywordKode – Discover Trending Temu Deals" />
+        <meta property="og:description" content="Daily deals from Temu, curated for tech-lovers, bargain hunters, and viral trends." />
+        <meta property="og:url" content="https://keywordkode.com.au/" />
+        <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="w-full max-w-6xl mx-auto space-y-10">
         <SiteHeader />
         <div className="bg-gradient-to-r from-pink-500 to-yellow-500 text-black px-4 py-3 rounded-xl text-center font-semibold shadow-lg">
@@ -287,13 +312,16 @@ function HomePage() {
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/:category" element={<CategoryPage />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog/:slug" element={<PostPage />} />
-      </Routes>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/:category" element={<CategoryPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<PostPage />} />
+        </Routes>
+      </Router>
+    </HelmetProvider>
   );
 }
+

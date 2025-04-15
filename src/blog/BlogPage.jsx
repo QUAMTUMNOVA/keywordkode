@@ -1,9 +1,16 @@
-import { Link } from 'react-router-dom';
-import { posts } from './posts';
+import { Helmet } from 'react-helmet-async';
 
 export default function BlogPage() {
   return (
     <main className="bg-[#0c0c1d] text-white px-4 py-12 min-h-screen">
+      <Helmet>
+        <title>KeywordKode Blog – Temu Picks & Product Roundups</title>
+        <meta name="description" content="Insights, guides, and best Temu finds for savvy shoppers." />
+        <meta property="og:title" content="KeywordKode Blog" />
+        <meta property="og:url" content="https://keywordkode.com.au/blog" />
+        <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="max-w-4xl mx-auto space-y-8">
         <h1 className="text-3xl font-bold text-center">KeywordKode Blog</h1>
         {posts.map(post => (

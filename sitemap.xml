@@ -7,10 +7,16 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Blog -->
+  <!-- Blog Listing -->
   <url>
     <loc>https://keywordkode.com.au/blog</loc>
-    <lastmod>2025-04-14</lastmod>
+    <lastmod>2025-04-15</lastmod>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://keywordkode.com.au/blog/top-3-temu-deals-under-10</loc>
+    <lastmod>2025-04-15</lastmod>
   </url>
 
   <!-- Tools -->
@@ -28,18 +34,4 @@
   <!-- Privacy -->
   <url>
     <loc>https://keywordkode.com.au/privacy.html</loc>
-    <lastmod>2025-04-15</lastmod>
-  </url>
-
-  <!-- Refund -->
-  <url>
-    <loc>https://keywordkode.com.au/refund.html</loc>
-    <lastmod>2025-04-15</lastmod>
-  </url>
-
-  <!-- Terms -->
-  <url>
-    <loc>https://keywordkode.com.au/terms.html</loc>
-    <lastmod>2025-04-15</lastmod>
-  </url>
-</urlset>
+    <

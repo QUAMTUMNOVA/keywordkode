@@ -1,8 +1,4 @@
-import { useParams } from 'react-router-dom';
-import { posts } from './posts';
-
-// We'll use marked to render markdown content
-import { marked } from 'marked';
+import { Helmet } from 'react-helmet-async';
 
 export default function PostPage() {
   const { slug } = useParams();
@@ -12,6 +8,15 @@ export default function PostPage() {
 
   return (
     <main className="bg-[#0c0c1d] text-white px-4 py-12 min-h-screen">
+      <Helmet>
+        <title>{post.title} – KeywordKode Blog</title>
+        <meta name="description" content={post.description} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.description} />
+        <meta property="og:url" content={`https://keywordkode.com.au/blog/${post.slug}`} />
+        <meta property="og:image" content="https://keywordkode.com.au/og-banner.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="max-w-4xl mx-auto space-y-6">
         <div>
           <h1 className="text-3xl font-bold mb-1">{post.title}</h1>
