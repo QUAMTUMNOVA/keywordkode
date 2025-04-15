@@ -12,7 +12,7 @@ import {
 
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 
 function SiteHeader() {
@@ -257,7 +257,7 @@ function Footer() {
   );
 }
 
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 function CategoryPage() {
   const { category } = useParams();
@@ -284,7 +284,7 @@ function CategoryPage() {
 }
 
 
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 function HomePage() {
   return (
