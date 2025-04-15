@@ -13,6 +13,23 @@ import {
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
 
+function SiteHeader() {
+  return (
+    <header className="text-center space-y-2">
+      <h1 className="text-4xl font-bold mb-2">
+        <span className="text-teal-400">Keyword</span>
+        <span className="text-yellow-300">Kode</span>
+      </h1>
+      <p className="text-lg text-gray-300">
+        Discover trending tools, deals & keyword-powered recommendations
+      </p>
+      <div className="pt-2 flex justify-center gap-6 text-sm font-medium">
+        <Link to="/" className="text-teal-300 hover:underline">Home</Link>
+        <Link to="/blog" className="text-teal-300 hover:underline">Blog</Link>
+      </div>
+    </header>
+  );
+}
 
 const temuProducts = [
   {
@@ -244,10 +261,8 @@ function CategoryPage() {
   return (
     <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10">
       <div className="w-full max-w-6xl mx-auto space-y-8">
-        <header className="text-center">
-          <h1 className="text-4xl font-bold mb-2">{pageCategory} Deals</h1>
-          <p className="text-gray-400">Explore trending items in {pageCategory}</p>
-        </header>
+        <SiteHeader />
+        <h2 className="text-2xl font-bold mb-4">{pageCategory} Deals</h2>
         <ProductGrid filterCategory={pageCategory} />
         <Footer />
       </div>
@@ -259,23 +274,10 @@ function HomePage() {
   return (
     <main className="min-h-screen bg-[#0c0c1d] text-white px-4 py-10">
       <div className="w-full max-w-6xl mx-auto space-y-10">
-        <header className="text-center">
-          <h1 className="text-4xl font-bold mb-2">KeywordKode</h1>
-          <p className="text-lg text-gray-300">Discover trending tools, deals & keyword-powered recommendations</p>
-        </header>
-
+        <SiteHeader />
         <div className="bg-gradient-to-r from-pink-500 to-yellow-500 text-black px-4 py-3 rounded-xl text-center font-semibold shadow-lg">
           🎉 New Temu Deals Just Dropped – Up to 90% Off! Free Shipping on Select Items!
         </div>
-
-        <div className="flex justify-center flex-wrap gap-3 pt-2">
-          {categories.map(cat => (
-            <Link key={cat} to={`/${cat.toLowerCase()}`} className="px-4 py-2 rounded-full font-medium border bg-[#1a1a2e] text-white border-gray-600 hover:bg-teal-400 hover:text-black">
-              {cat}
-            </Link>
-          ))}
-        </div>
-
         <ProductGrid filterCategory="All" />
         <Footer />
       </div>
@@ -295,4 +297,3 @@ export default function App() {
     </Router>
   );
 }
-
