@@ -1,9 +1,144 @@
-// App.jsx with Pagination + Category Pages + Footer
+// App.jsx — Fully Functional with 17 Products, Pagination, Category Routing & Footer
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams, useSearchParams, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useParams, useSearchParams } from 'react-router-dom';
 
 const temuProducts = [
-  // [... all 17 products ...]
+  {
+    id: 1,
+    name: 'Geevon Weather Station',
+    price: 'AU$34.63',
+    link: 'https://temu.to/k/uo4zp3xk1nm',
+    image: '/geevon-weather-station.jpg',
+    category: 'Home'
+  },
+  {
+    id: 2,
+    name: 'Non-Stick Burger Press + 100 Papers',
+    price: 'AU$7.09',
+    link: 'https://temu.to/k/ummn9y2forq',
+    image: '/non-stick-burger-press.jpg',
+    category: 'Home'
+  },
+  {
+    id: 3,
+    name: 'Dual Dash Cam - Night Vision + Parking Mode',
+    price: 'AU$3.36',
+    link: 'https://temu.to/k/uq5mp7evlsv',
+    image: '/dual-dash-cam.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 4,
+    name: 'Men’s Color Block Half-Zip Sweater',
+    price: 'AU$1.39',
+    link: 'https://temu.to/k/upte1fp8ove',
+    image: '/mens-color-block.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 5,
+    name: 'Cordless Engraving Rotary Tool',
+    price: 'AU$3.69',
+    link: 'https://temu.to/k/uh15ulei996',
+    image: '/cordless-engraving-rotary.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 6,
+    name: 'Men’s Vintage Crossbody Satchel',
+    price: 'AU$1.39',
+    link: 'https://temu.to/k/u9893t7qoor',
+    image: '/mens-vintage-crossbody.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 7,
+    name: "Men's Breathable Hiking Sandals",
+    price: 'AU$3.55',
+    link: 'https://temu.to/k/uooojb1zw9m',
+    image: '/mens-breathable-hiking.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 8,
+    name: "Men's Vintage Ankle Boots with Zipper",
+    price: 'AU$10.16',
+    link: 'https://temu.to/k/ujbvh940bsi',
+    image: '/mens-ankle-boots.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 9,
+    name: 'Xbox Series X Cooling Stand + Charging Hub',
+    price: 'AU$25.96',
+    link: 'https://temu.to/k/uxer7hwfz7n',
+    image: '/xbox-cooling-stand.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 10,
+    name: 'Professional Multi-Tool Car Repair Kit',
+    price: 'AU$32.54',
+    link: 'https://temu.to/k/ujqucf79px2',
+    image: '/car-repair.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 11,
+    name: '1:18 High-Speed Off-Road RC Car – 15KM/H',
+    price: 'AU$3.59',
+    link: 'https://temu.to/k/uj0j50zjdxu',
+    image: '/high-speed.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 12,
+    name: "Men's Thickened Hooded Winter Jacket",
+    price: 'AU$54.17',
+    link: 'https://temu.to/k/ucyn4ps414o',
+    image: '/thickened-hooded.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 13,
+    name: 'PU Leather Car Seat Cover - Red & Black',
+    price: 'AU$2.84',
+    link: 'https://temu.to/k/unwqat63smh',
+    image: '/car-seat-covers.jpg',
+    category: 'Home'
+  },
+  {
+    id: 14,
+    name: '2024 Model Wireless Earbuds with LED Display',
+    price: 'AU$0.64',
+    link: 'https://temu.to/k/uucesycdmsm',
+    image: '/2024-wireless-headphone.jpg',
+    category: 'Tech'
+  },
+  {
+    id: 15,
+    name: 'Large Capacity Outdoor Travel Backpack',
+    price: 'AU$3.44',
+    link: 'https://temu.to/k/uhb1drhcwix',
+    image: '/outdoor-travel-bag.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 16,
+    name: "Men's Blade Sneakers – Shock Absorption",
+    price: 'AU$0.99',
+    link: 'https://temu.to/k/usir8cs190v',
+    image: '/mens-blade-sneakers.jpg',
+    category: 'Fashion'
+  },
+  {
+    id: 17,
+    name: '2.4G Remote Control Excavator – 11 Channels',
+    price: 'AU$11.69',
+    link: 'https://temu.to/k/u7pu9742j4l',
+    image: '/rc-excavator.jpg',
+    category: 'Tech'
+  }
 ];
 
 const categories = ['All', 'Tech', 'Home', 'Fashion'];
