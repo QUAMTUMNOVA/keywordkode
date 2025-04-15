@@ -230,15 +230,11 @@ function HomePage() {
 <EbayDeals />
 
 <Footer />
-</div>
-</main>
-);
+      </div>
+    </main>
+  );
 }
-<Footer />
-</div>
-</main>
-);
-}
+
 
 
 export default function App() {
