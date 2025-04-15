@@ -9,17 +9,19 @@ import {
   useNavigate
 } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
+
+const categories = ['All', 'Tech', 'Home', 'Fashion', 'Tools'];
+const ITEMS_PER_PAGE = 9;
 
 function SiteHeader() {
   return (
     <header className="text-center space-y-2">
-      <h1 className="text-4xl font-bold mb-2">
+      <Link to="/" className="text-4xl font-bold mb-2 block">
         <span className="text-teal-400">Keyword</span>
         <span className="text-yellow-300">Kode</span>
-      </h1>
+      </Link>
       <p className="text-lg text-gray-300">
         Discover trending tools, deals & keyword-powered recommendations
       </p>
@@ -63,13 +65,9 @@ const temuProducts = [
 ];
 
 
-const categories = ['All', 'Tech', 'Home', 'Fashion', 'Tools'];
-const ITEMS_PER_PAGE = 9;
-
 function ProductGrid({ filterCategory }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const page = parseInt(searchParams.get('page') || '1');
-  const navigate = useNavigate();
   const [sortOrder, setSortOrder] = useState('asc');
 
   const filteredProducts = temuProducts
@@ -132,6 +130,10 @@ function Footer() {
       <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
       <p>Registered in Australia | ABN 43686016526</p>
       <p><a href="mailto:admin@quantumnova.com.au" className="text-teal-300 hover:underline">admin@quantumnova.com.au</a></p>
+      <div className="flex justify-center gap-4 pt-4">
+        <a href="https://facebook.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
+        <a href="https://instagram.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Instagram</a>
+      </div>
       <p className="pt-2 text-gray-500 italic">
         Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
       </p>
@@ -147,14 +149,12 @@ function Footer() {
 
 function CategoryPage() {
   const { category } = useParams();
-
   const categoryMap = {
     tech: 'Tech',
     home: 'Home',
     fashion: 'Fashion',
     tools: 'Tools'
   };
-
   const pageCategory = categoryMap[category?.toLowerCase()] || 'All';
 
   return (
@@ -191,9 +191,23 @@ function HomePage() {
       </Helmet>
       <div className="w-full max-w-6xl mx-auto space-y-10">
         <SiteHeader />
+
+        <div className="flex justify-center flex-wrap gap-3 pt-2">
+          {categories.slice(1).map((cat) => (
+            <Link
+              key={cat}
+              to={`/${cat.toLowerCase()}`}
+              className="px-4 py-2 rounded-full font-medium border bg-[#1a1a2e] text-white border-gray-600 hover:bg-teal-400 hover:text-black"
+            >
+              {cat}
+            </Link>
+          ))}
+        </div>
+
         <div className="bg-gradient-to-r from-pink-500 to-yellow-500 text-black px-4 py-3 rounded-xl text-center font-semibold shadow-lg">
           🎉 New Temu Deals Just Dropped – Up to 90% Off! Free Shipping on Select Items!
         </div>
+
         <ProductGrid filterCategory="All" />
         <Footer />
       </div>
