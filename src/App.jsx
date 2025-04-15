@@ -6,7 +6,7 @@ const temuProducts = [
     name: 'Geevon Weather Station',
     price: 'AU$34.63',
     link: 'https://temu.to/k/uo4zp3xk1nm',
-    image: '/public/geevon-weather-station.jpg',
+    image: '/geevon-weather-station.jpg',
     category: 'Home'
   },
   {
@@ -14,7 +14,7 @@ const temuProducts = [
     name: 'Non-Stick Burger Press + 100 Papers',
     price: 'AU$7.09',
     link: 'https://temu.to/k/ummn9y2forq',
-    image: '/public/non-stick-burger-press.jpg',
+    image: '/non-stick-burger-press.jpg',
     category: 'Home'
   },
   {
@@ -22,7 +22,7 @@ const temuProducts = [
     name: 'Dual Dash Cam - Night Vision + Parking Mode',
     price: 'AU$3.36',
     link: 'https://temu.to/k/uq5mp7evlsv',
-    image: '/public/dual-dash-cam.jpg',
+    image: '/dual-dash-cam.jpg',
     category: 'Tech'
   },
   {
@@ -30,7 +30,7 @@ const temuProducts = [
     name: 'Men’s Color Block Half-Zip Sweater',
     price: 'AU$1.39',
     link: 'https://temu.to/k/upte1fp8ove',
-    image: '/public/mens-color-block.jpg',
+    image: '/mens-color-block.jpg',
     category: 'Fashion'
   },
   {
@@ -38,7 +38,7 @@ const temuProducts = [
     name: 'Cordless Engraving Rotary Tool',
     price: 'AU$3.69',
     link: 'https://temu.to/k/uh15ulei996',
-    image: '/public/cordless-engraving-rotary.jpg',
+    image: '/cordless-engraving-rotary.jpg',
     category: 'Tech'
   },
   {
@@ -46,7 +46,7 @@ const temuProducts = [
     name: 'Men’s Vintage Crossbody Satchel',
     price: 'AU$1.39',
     link: 'https://temu.to/k/u9893t7qoor',
-    image: '/public/mens-vintage-crossbody.jpg',
+    image: '/mens-vintage-crossbody.jpg',
     category: 'Fashion'
   }
 ];
