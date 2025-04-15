@@ -1,5 +1,4 @@
-// App.jsx — Fully Functional with 17 Products, Pagination, Category Routing & Footer
-import { useState } from 'react';
+import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,11 +8,10 @@ import {
   useSearchParams,
   useNavigate
 } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
-import { Helmet } from 'react-helmet';
-
 
 function SiteHeader() {
   return (
@@ -34,142 +32,23 @@ function SiteHeader() {
 }
 
 const temuProducts = [
-  {
-    id: 1,
-    name: 'Geevon Weather Station',
-    price: 'AU$34.63',
-    link: 'https://temu.to/k/uo4zp3xk1nm',
-    image: '/geevon-weather-station.jpg',
-    category: 'Home'
-  },
-  {
-    id: 2,
-    name: 'Non-Stick Burger Press + 100 Papers',
-    price: 'AU$7.09',
-    link: 'https://temu.to/k/ummn9y2forq',
-    image: '/non-stick-burger-press.jpg',
-    category: 'Home'
-  },
-  {
-    id: 3,
-    name: 'Dual Dash Cam - Night Vision + Parking Mode',
-    price: 'AU$3.36',
-    link: 'https://temu.to/k/uq5mp7evlsv',
-    image: '/dual-dash-cam.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 4,
-    name: 'Men’s Color Block Half-Zip Sweater',
-    price: 'AU$1.39',
-    link: 'https://temu.to/k/upte1fp8ove',
-    image: '/mens-color-block.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 5,
-    name: 'Cordless Engraving Rotary Tool',
-    price: 'AU$3.69',
-    link: 'https://temu.to/k/uh15ulei996',
-    image: '/cordless-engraving-rotary.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 6,
-    name: 'Men’s Vintage Crossbody Satchel',
-    price: 'AU$1.39',
-    link: 'https://temu.to/k/u9893t7qoor',
-    image: '/mens-vintage-crossbody.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 7,
-    name: "Men's Breathable Hiking Sandals",
-    price: 'AU$3.55',
-    link: 'https://temu.to/k/uooojb1zw9m',
-    image: '/mens-breathable-hiking.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 8,
-    name: "Men's Vintage Ankle Boots with Zipper",
-    price: 'AU$10.16',
-    link: 'https://temu.to/k/ujbvh940bsi',
-    image: '/mens-ankle-boots.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 9,
-    name: 'Xbox Series X Cooling Stand + Charging Hub',
-    price: 'AU$25.96',
-    link: 'https://temu.to/k/uxer7hwfz7n',
-    image: '/xbox-cooling-stand.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 10,
-    name: 'Professional Multi-Tool Car Repair Kit',
-    price: 'AU$32.54',
-    link: 'https://temu.to/k/ujqucf79px2',
-    image: '/car-repair.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 11,
-    name: '1:18 High-Speed Off-Road RC Car – 15KM/H',
-    price: 'AU$3.59',
-    link: 'https://temu.to/k/uj0j50zjdxu',
-    image: '/high-speed.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 12,
-    name: "Men's Thickened Hooded Winter Jacket",
-    price: 'AU$54.17',
-    link: 'https://temu.to/k/ucyn4ps414o',
-    image: '/thickened-hooded.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 13,
-    name: 'PU Leather Car Seat Cover - Red & Black',
-    price: 'AU$2.84',
-    link: 'https://temu.to/k/unwqat63smh',
-    image: '/car-seat-covers.jpg',
-    category: 'Home'
-  },
-  {
-    id: 14,
-    name: '2024 Model Wireless Earbuds with LED Display',
-    price: 'AU$0.64',
-    link: 'https://temu.to/k/uucesycdmsm',
-    image: '/2024-wireless-headphone.jpg',
-    category: 'Tech'
-  },
-  {
-    id: 15,
-    name: 'Large Capacity Outdoor Travel Backpack',
-    price: 'AU$3.44',
-    link: 'https://temu.to/k/uhb1drhcwix',
-    image: '/outdoor-travel-bag.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 16,
-    name: "Men's Blade Sneakers – Shock Absorption",
-    price: 'AU$0.99',
-    link: 'https://temu.to/k/usir8cs190v',
-    image: '/mens-blade-sneakers.jpg',
-    category: 'Fashion'
-  },
-  {
-    id: 17,
-    name: '2.4G Remote Control Excavator – 11 Channels',
-    price: 'AU$11.69',
-    link: 'https://temu.to/k/u7pu9742j4l',
-    image: '/rc-excavator.jpg',
-    category: 'Tech'
-  }
+  { id: 1, name: 'Geevon Weather Station', price: 'AU$34.63', link: 'https://temu.to/k/uo4zp3xk1nm', image: '/geevon-weather-station.jpg', category: 'Home' },
+  { id: 2, name: 'Non-Stick Burger Press + 100 Papers', price: 'AU$7.09', link: 'https://temu.to/k/ummn9y2forq', image: '/non-stick-burger-press.jpg', category: 'Home' },
+  { id: 3, name: 'Dual Dash Cam - Night Vision + Parking Mode', price: 'AU$3.36', link: 'https://temu.to/k/uq5mp7evlsv', image: '/dual-dash-cam.jpg', category: 'Tech' },
+  { id: 4, name: 'Men’s Color Block Half-Zip Sweater', price: 'AU$1.39', link: 'https://temu.to/k/upte1fp8ove', image: '/mens-color-block.jpg', category: 'Fashion' },
+  { id: 5, name: 'Cordless Engraving Rotary Tool', price: 'AU$3.69', link: 'https://temu.to/k/uh15ulei996', image: '/cordless-engraving-rotary.jpg', category: 'Tech' },
+  { id: 6, name: 'Men’s Vintage Crossbody Satchel', price: 'AU$1.39', link: 'https://temu.to/k/u9893t7qoor', image: '/mens-vintage-crossbody.jpg', category: 'Fashion' },
+  { id: 7, name: "Men's Breathable Hiking Sandals", price: 'AU$3.55', link: 'https://temu.to/k/uooojb1zw9m', image: '/mens-breathable-hiking.jpg', category: 'Fashion' },
+  { id: 8, name: "Men's Vintage Ankle Boots with Zipper", price: 'AU$10.16', link: 'https://temu.to/k/ujbvh940bsi', image: '/mens-ankle-boots.jpg', category: 'Fashion' },
+  { id: 9, name: 'Xbox Series X Cooling Stand + Charging Hub', price: 'AU$25.96', link: 'https://temu.to/k/uxer7hwfz7n', image: '/xbox-cooling-stand.jpg', category: 'Tech' },
+  { id: 10, name: 'Professional Multi-Tool Car Repair Kit', price: 'AU$32.54', link: 'https://temu.to/k/ujqucf79px2', image: '/car-repair.jpg', category: 'Tech' },
+  { id: 11, name: '1:18 High-Speed Off-Road RC Car – 15KM/H', price: 'AU$3.59', link: 'https://temu.to/k/uj0j50zjdxu', image: '/high-speed.jpg', category: 'Tech' },
+  { id: 12, name: "Men's Thickened Hooded Winter Jacket", price: 'AU$54.17', link: 'https://temu.to/k/ucyn4ps414o', image: '/thickened-hooded.jpg', category: 'Fashion' },
+  { id: 13, name: 'PU Leather Car Seat Cover - Red & Black', price: 'AU$2.84', link: 'https://temu.to/k/unwqat63smh', image: '/car-seat-covers.jpg', category: 'Home' },
+  { id: 14, name: '2024 Model Wireless Earbuds with LED Display', price: 'AU$0.64', link: 'https://temu.to/k/uucesycdmsm', image: '/2024-wireless-headphone.jpg', category: 'Tech' },
+  { id: 15, name: 'Large Capacity Outdoor Travel Backpack', price: 'AU$3.44', link: 'https://temu.to/k/uhb1drhcwix', image: '/outdoor-travel-bag.jpg', category: 'Fashion' },
+  { id: 16, name: "Men's Blade Sneakers – Shock Absorption", price: 'AU$0.99', link: 'https://temu.to/k/usir8cs190v', image: '/mens-blade-sneakers.jpg', category: 'Fashion' },
+  { id: 17, name: '2.4G Remote Control Excavator – 11 Channels', price: 'AU$11.69', link: 'https://temu.to/k/u7pu9742j4l', image: '/rc-excavator.jpg', category: 'Tech' }
 ];
 
 const categories = ['All', 'Tech', 'Home', 'Fashion'];
@@ -218,7 +97,6 @@ function ProductGrid({ filterCategory }) {
         ))}
       </div>
 
-      {/* Pagination Controls */}
       <div className="flex justify-center gap-3 pt-6">
         {Array.from({ length: totalPages }, (_, i) => (
           <button
@@ -238,10 +116,7 @@ function Footer() {
   return (
     <footer className="text-sm text-gray-400 text-center pt-8 border-t border-gray-700 space-y-1 mt-10">
       <p>© 2025 KeywordKode. All rights reserved.</p>
-      <p>
-        Powered by{' '}
-        <a href="https://quantumnova.com.au" className="text-teal-300 font-semibold hover:underline">QUANTUMNOVA</a>
-      </p>
+      <p>Powered by <a href="https://quantumnova.com.au" className="text-teal-300 font-semibold hover:underline">QUANTUMNOVA</a></p>
       <p>© 2025 QUANTUMNOVA PTY LTD — All rights reserved.</p>
       <p>Registered in Australia | ABN 43686016526</p>
       <p><a href="mailto:admin@quantumnova.com.au" className="text-teal-300 hover:underline">admin@quantumnova.com.au</a></p>
@@ -249,15 +124,14 @@ function Footer() {
         Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
       </p>
       <p className="pt-2 text-gray-500">
-  <a href="/privacy.html" className="hover:underline text-teal-300">Privacy Policy</a> |
-  <a href="/refund.html" className="hover:underline text-teal-300">Refund Policy</a> |
-  <a href="/terms.html" className="hover:underline text-teal-300">Terms & Conditions</a> |
-  <a href="/rss.xml" className="hover:underline text-teal-300">RSS</a>
-</p>
+        <a href="/privacy.html" className="hover:underline text-teal-300">Privacy Policy</a> |
+        <a href="/refund.html" className="hover:underline text-teal-300">Refund Policy</a> |
+        <a href="/terms.html" className="hover:underline text-teal-300">Terms & Conditions</a> |
+        <a href="/rss.xml" className="hover:underline text-teal-300">RSS</a>
+      </p>
+    </footer>
   );
 }
-
-import { Helmet } from 'react-helmet';
 
 function CategoryPage() {
   const { category } = useParams();
@@ -282,9 +156,6 @@ function CategoryPage() {
     </main>
   );
 }
-
-
-import { Helmet } from 'react-helmet';
 
 function HomePage() {
   return (
@@ -312,16 +183,13 @@ function HomePage() {
 
 export default function App() {
   return (
-    <HelmetProvider>
-      <Router>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/:category" element={<CategoryPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:slug" element={<PostPage />} />
-        </Routes>
-      </Router>
-    </HelmetProvider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/:category" element={<CategoryPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<PostPage />} />
+      </Routes>
+    </Router>
   );
 }
-
