@@ -227,18 +227,19 @@ function HomePage() {
         </div>
 
         <ProductGrid filterCategory="All" />
-        <EbayDeals />
+<EbayDeals />
 
-        <Footer />
-      </div>
-    </main>
-  );
+<Footer />
+</div>
+</main>
+);
 }
-        <Footer />
-      </div>
-    </main>
-  );
+<Footer />
+</div>
+</main>
+);
 }
+
 
 export default function App() {
   return (
