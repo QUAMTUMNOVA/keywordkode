@@ -48,10 +48,22 @@ const temuProducts = [
   { id: 14, name: '2024 Model Wireless Earbuds with LED Display', price: 'AU$0.64', link: 'https://temu.to/k/uucesycdmsm', image: '/2024-wireless-headphone.jpg', category: 'Tech' },
   { id: 15, name: 'Large Capacity Outdoor Travel Backpack', price: 'AU$3.44', link: 'https://temu.to/k/uhb1drhcwix', image: '/outdoor-travel-bag.jpg', category: 'Fashion' },
   { id: 16, name: "Men's Blade Sneakers – Shock Absorption", price: 'AU$0.99', link: 'https://temu.to/k/usir8cs190v', image: '/mens-blade-sneakers.jpg', category: 'Fashion' },
-  { id: 17, name: '2.4G Remote Control Excavator – 11 Channels', price: 'AU$11.69', link: 'https://temu.to/k/u7pu9742j4l', image: '/rc-excavator.jpg', category: 'Tech' }
+  { id: 17, name: '2.4G Remote Control Excavator – 11 Channels', price: 'AU$11.69', link: 'https://temu.to/k/u7pu9742j4l', image: '/rc-excavator.jpg', category: 'Tech' },
+  { id: 18, name: "Men's Blade Type Shoes – Lightweight Running Sneakers", price: 'AU$25.94', link: 'https://temu.to/k/u2c711xtg9g', image: '/ultralight-blade.jpg', category: 'Fashion' },
+  { id: 19, name: "Large Casual Men's Travel Duffel Bag – Multi-Compartment", price: 'AU$12.59', link: 'https://temu.to/k/ualoj6fgl80', image: '/leather-travel-bag.jpg', category: 'Fashion' },
+  { id: 20, name: "Kinglucky Wireless Boombox Speaker – Subwoofer & Disco Light", price: 'AU$35.54', link: 'https://temu.to/k/uwczkgu3d7c', image: '/wireless-boombox.jpg', category: 'Tech' },
+  { id: 21, name: "TG534 Portable Wireless Stereo Speaker – Dual Speakers", price: 'AU$2.87', link: 'https://temu.to/k/ukcqw17ukvy', image: '/portable-speaker.jpg', category: 'Tech' },
+  { id: 22, name: "LIGE 2023 Smart Watch – Touch Screen, Fitness, Steel Band", price: 'AU$33.24', link: 'https://temu.to/k/uwzqs17gf3x', image: '/lige-smart-watch.jpg', category: 'Tech' },
+  { id: 23, name: "Stainless Steel Manual Citrus Juicer – Lemon/Orange Squeezer", price: 'AU$11.69', link: 'https://temu.to/k/uhyd3clg50p', image: '/orange-juicer.jpg', category: 'Home' },
+  { id: 24, name: "Compact Stainless Steel Deep Fryer Pan – Lid & Thermometer", price: 'AU$16.58', link: 'https://temu.to/k/u0b0rbvs8sx', image: '/compact-deep-fryer.jpg', category: 'Home' },
+  { id: 25, name: "Mini Wireless Car Vacuum Cleaner – Wet/Dry, Suction + Blower", price: 'AU$5.04', link: 'https://temu.to/k/utm5suzp5dq', image: '/car-vacuum.jpg', category: 'Tech' },
+  { id: 26, name: "HOTU Sand Blaster – Anti-Rust Manual Blasting Gun", price: 'AU$19.10', link: 'https://temu.to/k/u7ui9clvucs', image: '/handheld-sandblaster.jpg', category: 'Tech' },
+  { id: 27, name: "Lightweight Men's Outdoor Jacket – Hooded Navy Windbreaker", price: 'AU$2.97', link: 'https://temu.to/k/uisu1huuy8j', image: '/mens-windbreaker.jpg', category: 'Fashion' },
+  { id: 28, name: "Industrial Endoscope Camera – 4.3\" LCD, Plumbing/Repair", price: 'AU$33.36', link: 'https://temu.to/k/uamtwsafx3g', image: '/endoscope.jpg', category: 'Tech' }
 ];
 
-const categories = ['All', 'Tech', 'Home', 'Fashion'];
+
+const categories = ['All', 'Tech', 'Home', 'Fashion', 'Tools'];
 const ITEMS_PER_PAGE = 9;
 
 function ProductGrid({ filterCategory }) {
