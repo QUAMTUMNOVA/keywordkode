@@ -25,16 +25,23 @@ function SiteHeader() {
       <p className="text-lg text-gray-300">
         Discover trending tools, deals & keyword-powered recommendations
       </p>
+
+      {/* Navigation Links */}
       <div className="pt-2 flex justify-center gap-6 text-sm font-medium">
         <Link to="/" className="text-teal-300 hover:underline">Home</Link>
         <Link to="/blog" className="text-teal-300 hover:underline">Blog</Link>
+      </div>
+
+      {/* Social Links (separate row) */}
+      <div className="pt-1 flex justify-center gap-6 text-sm font-medium">
         <a href="https://facebook.com/quantumnovaHQ" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
         <a href="https://instagram.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Instagram</a>
-        <a href="https://x.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Twitter</a>
+        <a href="https://x.com/quantumnovaHQ" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">X</a>
       </div>
     </header>
   );
 }
+
 
 const temuProducts = [
   { id: 1, name: 'Geevon Weather Station', price: 'AU$34.63', link: 'https://temu.to/k/uo4zp3xk1nm', image: '/geevon-weather-station.jpg', category: 'Home' },
