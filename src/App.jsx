@@ -28,6 +28,8 @@ function SiteHeader() {
       <div className="pt-2 flex justify-center gap-6 text-sm font-medium">
         <Link to="/" className="text-teal-300 hover:underline">Home</Link>
         <Link to="/blog" className="text-teal-300 hover:underline">Blog</Link>
+        <a href="https://facebook.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
+        <a href="https://instagram.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Instagram</a>
       </div>
     </header>
   );
@@ -149,8 +151,6 @@ function Footer() {
       <p>Registered in Australia | ABN 43686016526</p>
       <p><a href="mailto:admin@quantumnova.com.au" className="text-teal-300 hover:underline">admin@quantumnova.com.au</a></p>
       <div className="flex justify-center gap-4 pt-4">
-        <a href="https://facebook.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
-        <a href="https://instagram.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Instagram</a>
       </div>
       <p className="pt-2 text-gray-500 italic">
         Disclaimer: As an affiliate, we may earn commissions from qualifying purchases made through links on this site.
