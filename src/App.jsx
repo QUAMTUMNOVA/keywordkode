@@ -28,8 +28,9 @@ function SiteHeader() {
       <div className="pt-2 flex justify-center gap-6 text-sm font-medium">
         <Link to="/" className="text-teal-300 hover:underline">Home</Link>
         <Link to="/blog" className="text-teal-300 hover:underline">Blog</Link>
-        <a href="https://facebook.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
+        <a href="https://facebook.com/quantumnovaHQ" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Facebook</a>
         <a href="https://instagram.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Instagram</a>
+        <a href="https://x.com/quantumnova_hq" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:underline">Twitter</a>
       </div>
     </header>
   );
@@ -248,4 +249,3 @@ export default function App() {
       </Routes>
     </Router>
   );
-}
