@@ -84,7 +84,7 @@ const temuProducts = [
   { id: 38, name: "360° Rotating Ratchet Wrench", price: 'AU$1.01', link: 'https://temu.to/k/u7zyrlkhme5', image: '/rotating-ratchet.jpg', category: 'Tools' },
   { id: 39, name: "Advanced V519 OBD2 Scanner", price: 'AU$3.55', link: 'https://temu.to/k/ujgea3qsk5o', image: '/obd-scanner.jpg', category: 'Tech' },
   { id: 40, name: "12V DC Portable Tire Inflator", price: 'AU$5.19', link: 'https://temu.to/k/u77xqcfcjy5', image: '/tire-inflator.jpg', category: 'Tech' },
-  { id: 41, name: "Men's Aussie Kangaroo Print Polo Shirt", price: 'AU$1.05', link: 'https://temu.to/k/ufynwjrmsem', image: '/aussie-polo.jpg', category: 'Fashion' },
+  { id: 41, name: "Men's Aussie Kangaroo Print Polo Shirt", price: 'AU$1.05', link: 'https://temu.to/k/ufynwjrmsem', image: '/aussie-shirt.jpg', category: 'Fashion' },
   { id: 42, name: "Men's Hawaiian 3D Floral Shirt", price: 'AU$1.55', link: 'https://temu.to/k/u2w5ds1gvwc', image: '/fashion-shirt.jpg', category: 'Fashion' },
   { id: 43, name: "Heavy-Duty Industrial Shears", price: 'AU$0.89', link: 'https://temu.to/k/u1go534hrqn', image: '/industrial-shears.jpg', category: 'Tools' },
   { id: 44, name: "Rechargeable Electric Pepper Grinder", price: 'AU$13.29', link: 'https://temu.to/k/ud41yb1c9ht', image: '/electric-grinder.jpg', category: 'Home' }
