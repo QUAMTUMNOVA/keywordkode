@@ -125,4 +125,92 @@ Want more weirdly satisfying Temu finds?
 *As always, prices may change — get in while the deals are 🔥.*
 `
   }
+  {
+    slug: "latest-temu-deals-april2025",
+    title: "🔥 10 Trending Temu Finds in April 2025 — All Under AU$35",
+    author: "KeywordKode Team",
+    date: "April 18, 2025",
+    description: "From retro boots to smart gadgets and viral kitchen gear — here are our latest top picks under $35 you should definitely check out.",
+    content: `
+  Temu’s still pumping out insane value — so we’ve rounded up **10 of the hottest trending drops** right now, handpicked from our newest product refresh.
+  
+  ---
+  
+  ### 🥾 1. Men's Retro Boots
+  *AU$30.71* → [Shop Now](https://temu.to/k/uu03ynha2qp)
+  
+  Classic two-tone, rugged soles, and surprisingly durable. Fall/Winter approved.
+  
+  ---
+  
+  ### 👕 2. Casual Turtleneck Sweater
+  *AU$1.57* → [Steal This](https://temu.to/k/umbb5g2laex)
+  
+  Looks 10x more expensive than it is. Lightweight fleece + high-end vibes.
+  
+  ---
+  
+  ### 👛 3. RFID Leather Wallet
+  *AU$0.87* → [Grab One](https://temu.to/k/uu5i2qg6zsh)
+  
+  Slim, secure, giftable. Don’t let the price fool you — it’s real leather.
+  
+  ---
+  
+  ### 🛠️ 4. Furniture Lifter Roller Kit (Set of 5)
+  *AU$14.48* → [Slide In](https://temu.to/k/u8vkqpjltul)
+  
+  Move heavy furniture solo. Yep, it actually works.
+  
+  ---
+  
+  ### 👖 5. Men's Classic Denim Jeans
+  *AU$2.69* → [Add to Cart](https://temu.to/k/uf6k682mkg3)
+  
+  Clean fit. Light stretch. Work or weekend-friendly.
+  
+  ---
+  
+  ### 🎒 6. Multifunction Laptop Backpack
+  *AU$3.49* → [Back It Up](https://temu.to/k/u4xmvs0q06r)
+  
+  Business, uni, or travel. This one’s sleek and shockingly roomy.
+  
+  ---
+  
+  ### ⌚ 7. LIGE Smart Watch w/ Wireless Call
+  *AU$21.49* → [Get Smart](https://temu.to/k/untqe9jk39y)
+  
+  It makes calls. It counts steps. It doesn’t break your budget.
+  
+  ---
+  
+  ### 👟 8. Men’s Walking Boots
+  *AU$1.87* → [Walk This Way](https://temu.to/k/u9ugubn8hne)
+  
+  Comfy, breathable, and low-key stylish. Great daily shoes.
+  
+  ---
+  
+  ### 🫙 9. 2-in-1 Oil Sprayer
+  *AU$0.52* → [Oil Up](https://temu.to/k/ueibx9cioth)
+  
+  Spray or pour olive oil like a boss. Kitchen hack unlocked.
+  
+  ---
+  
+  ### 🔩 10. Rotating Ratchet Wrench
+  *AU$1.01* → [Wrench It](https://temu.to/k/u7zyrlkhme5)
+  
+  360° tool for car fixes, flat packs, or general chaos.
+  
+  ---
+  
+  🛒 Want the full list?  
+  📦 [Check out our updated Temu grid page](/shop)
+  
+  *Prices valid at time of posting. Temu likes to shake it up, so check fast!*
+  `
+  }
+  
 ];
