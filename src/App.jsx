@@ -72,6 +72,22 @@ const temuProducts = [
   { id: 26, name: "HOTU Sand Blaster – Anti-Rust Manual Blasting Gun", price: 'AU$19.10', link: 'https://temu.to/k/u7ui9clvucs', image: '/handheld-sandblaster.jpg', category: 'Tech' },
   { id: 27, name: "Lightweight Men's Outdoor Jacket – Hooded Navy Windbreaker", price: 'AU$2.97', link: 'https://temu.to/k/uisu1huuy8j', image: '/mens-windbreaker.jpg', category: 'Fashion' },
   { id: 28, name: "Industrial Endoscope Camera – 4.3\" LCD, Plumbing/Repair", price: 'AU$33.36', link: 'https://temu.to/k/uamtwsafx3g', image: '/endoscope.jpg', category: 'Tech' }
+  { id: 29, name: "Men's Retro Boots", price: 'AU$30.71', link: 'https://temu.to/k/uu03ynha2qp', image: '/retro-boots.jpg', category: 'Fashion' },
+  { id: 30, name: "Men's Casual Zip-Up Turtleneck Sweater", price: 'AU$1.57', link: 'https://temu.to/k/umbb5g2laex', image: '/mens-sweater.jpg', category: 'Fashion' },
+  { id: 31, name: "CIEPHIA Vintage Leather RFID Wallet", price: 'AU$0.87', link: 'https://temu.to/k/uu5i2qg6zsh', image: '/leather-wallet.jpg', category: 'Fashion' },
+  { id: 32, name: "Furniture Lifter & Move Roller Tools (Set of 5)", price: 'AU$14.48', link: 'https://temu.to/k/u8vkqpjltul', image: '/furniture-lifter.jpg', category: 'Home' },
+  { id: 33, name: "Men's Classic Denim Jeans", price: 'AU$2.69', link: 'https://temu.to/k/uf6k682mkg3', image: '/denim-jeans.jpg', category: 'Fashion' },
+  { id: 34, name: "Large Capacity Business Laptop Backpack", price: 'AU$3.49', link: 'https://temu.to/k/u4xmvs0q06r', image: '/laptop-backpack.jpg', category: 'Fashion' },
+  { id: 35, name: "LIGE Men's Smart Watch – Wireless Calls", price: 'AU$21.49', link: 'https://temu.to/k/untqe9jk39y', image: '/smart-watch.jpg', category: 'Tech' },
+  { id: 36, name: "Men's Durable Walking Boots", price: 'AU$1.87', link: 'https://temu.to/k/u9ugubn8hne', image: '/durable-boots.jpg', category: 'Fashion' },
+  { id: 37, name: "2-in-1 Portable Oil Sprayer & Dispenser", price: 'AU$0.52', link: 'https://temu.to/k/ueibx9cioth', image: '/oil-sprayer.jpg', category: 'Home' },
+  { id: 38, name: "360° Rotating Ratchet Wrench", price: 'AU$1.01', link: 'https://temu.to/k/u7zyrlkhme5', image: '/rotating-ratchet.jpg', category: 'Tools' },
+  { id: 39, name: "Advanced V519 OBD2 Scanner", price: 'AU$3.55', link: 'https://temu.to/k/ujgea3qsk5o', image: '/obd-scanner.jpg', category: 'Tech' },
+  { id: 40, name: "12V DC Portable Tire Inflator", price: 'AU$5.19', link: 'https://temu.to/k/u77xqcfcjy5', image: '/tire-inflator.jpg', category: 'Tech' },
+  { id: 41, name: "Men's Aussie Kangaroo Print Polo Shirt", price: 'AU$1.05', link: 'https://temu.to/k/ufynwjrmsem', image: '/aussie-polo.jpg', category: 'Fashion' },
+  { id: 42, name: "Men's Hawaiian 3D Floral Shirt", price: 'AU$1.55', link: 'https://temu.to/k/u2w5ds1gvwc', image: '/fashion-shirt.jpg', category: 'Fashion' },
+  { id: 43, name: "Heavy-Duty Industrial Shears", price: 'AU$0.89', link: 'https://temu.to/k/u1go534hrqn', image: '/industrial-shears.jpg', category: 'Tools' },
+  { id: 44, name: "Rechargeable Electric Pepper Grinder", price: 'AU$13.29', link: 'https://temu.to/k/ud41yb1c9ht', image: '/electric-grinder.jpg', category: 'Home' }
 ];
 
 function EbayDeals() {
