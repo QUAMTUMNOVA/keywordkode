@@ -124,7 +124,7 @@ Want more weirdly satisfying Temu finds?
 ---
 *As always, prices may change — get in while the deals are 🔥.*
 `
-  }
+  },
   {
     slug: "latest-temu-deals-april2025",
     title: "🔥 10 Trending Temu Finds in April 2025 — All Under AU$35",
