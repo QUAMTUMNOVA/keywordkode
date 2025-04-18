@@ -71,7 +71,7 @@ const temuProducts = [
   { id: 25, name: "Mini Wireless Car Vacuum Cleaner – Wet/Dry, Suction + Blower", price: 'AU$5.04', link: 'https://temu.to/k/utm5suzp5dq', image: '/car-vacuum.jpg', category: 'Tech' },
   { id: 26, name: "HOTU Sand Blaster – Anti-Rust Manual Blasting Gun", price: 'AU$19.10', link: 'https://temu.to/k/u7ui9clvucs', image: '/handheld-sandblaster.jpg', category: 'Tech' },
   { id: 27, name: "Lightweight Men's Outdoor Jacket – Hooded Navy Windbreaker", price: 'AU$2.97', link: 'https://temu.to/k/uisu1huuy8j', image: '/mens-windbreaker.jpg', category: 'Fashion' },
-  { id: 28, name: "Industrial Endoscope Camera – 4.3\" LCD, Plumbing/Repair", price: 'AU$33.36', link: 'https://temu.to/k/uamtwsafx3g', image: '/endoscope.jpg', category: 'Tech' }
+  { id: 28, name: "Industrial Endoscope Camera – 4.3\" LCD, Plumbing/Repair", price: 'AU$33.36', link: 'https://temu.to/k/uamtwsafx3g', image: '/endoscope.jpg', category: 'Tech' },
   { id: 29, name: "Men's Retro Boots", price: 'AU$30.71', link: 'https://temu.to/k/uu03ynha2qp', image: '/retro-boots.jpg', category: 'Fashion' },
   { id: 30, name: "Men's Casual Zip-Up Turtleneck Sweater", price: 'AU$1.57', link: 'https://temu.to/k/umbb5g2laex', image: '/mens-sweater.jpg', category: 'Fashion' },
   { id: 31, name: "CIEPHIA Vintage Leather RFID Wallet", price: 'AU$0.87', link: 'https://temu.to/k/uu5i2qg6zsh', image: '/leather-wallet.jpg', category: 'Fashion' },
