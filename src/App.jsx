@@ -105,9 +105,38 @@ function EbayDeals() {
         <h3 className="text-lg font-bold mb-2">Tom Ford Bags</h3>
         <p className="text-yellow-400">Authenticity Guarantee</p>
       </a>
+      <a href="https://www.ebay.com/e/fashion/jordan-ag-110220?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Jordan Sneakers</h3>
+        <p className="text-yellow-400">Fresh Drops Weekly</p>
+      </a>
+      <a href="https://www.ebay.com/e/toys/ccg-one-stop-shop?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">CCG Card Shop</h3>
+        <p className="text-yellow-400">TCG + Collectibles</p>
+      </a>
+      <a href="https://www.ebay.com/e/fashion/ag-handbags-versace-030623?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Versace Handbags</h3>
+        <p className="text-yellow-400">Luxury Statement Pieces</p>
+      </a>
+      <a href="https://www.ebay.com/e/_electronics/certified-refurbished-pc-gaming?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Refurb Gaming PCs</h3>
+        <p className="text-yellow-400">Certified + Discounted</p>
+      </a>
+      <a href="https://www.ebay.com/e/_electronics/save-on-microsoft?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Save on Microsoft</h3>
+        <p className="text-yellow-400">Laptops, Surface, & More</p>
+      </a>
+      <a href="https://www.ebay.com/e/_electronics/ebay-refurbished-tablets?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Refurbished Tablets</h3>
+        <p className="text-yellow-400">Certified Tech Bargains</p>
+      </a>
+      <a href="https://www.ebay.com/e/fashion/jewelry-luxe-for-less-092123?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339107807&toolid=20014&customid=&mkevt=1" target="_blank" rel="noopener noreferrer" className="bg-[#161628] p-4 rounded-xl text-center hover:shadow-lg">
+        <h3 className="text-lg font-bold mb-2">Luxe Jewelry Deals</h3>
+        <p className="text-yellow-400">Understated Bling</p>
+      </a>
     </div>
   );
 }
+
 
 function ProductGrid({ filterCategory }) {
   const [searchParams, setSearchParams] = useSearchParams();
