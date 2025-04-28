@@ -66,50 +66,38 @@ Temu is quietly becoming a **DIYer's dream zone** — whether you're fixing, bui
 
 Here's our **top 5 viral tools** that are blowing up right now (and won't blow your budget):
 
----
 ### 🌀 1. Mini Wireless Car Vacuum Cleaner
 **AU$5.04** → [Snag it](https://temu.to/k/utm5suzp5dq)
-
 Clean up spills, dust, pet hair, and mystery crumbs.  
 ✔️ Dual suction/blower mode  
 ✔️ Compact + rechargeable  
-✔️ Ideal for home, car, keyboard cleanup
+✔️ Ideal for home, car, keyboard cleanup.
 
----
 ### 🔧 2. HOTU Sand Blaster – Anti-Rust Nozzle
 **AU$19.10** → [Blast rust here](https://temu.to/k/u7ui9clvucs)
-
 Strip rust, old paint, or hard-to-reach metal gunk.  
 💥 Pneumatic-powered  
-🛠️ Great for restoration projects  
-🎯 DIY car or tool rehab win
+🛠️ Great for restoration projects.
 
----
 ### 👀 3. Industrial Endoscope Camera – 4.3" LCD
 **AU$33.36** → [Scope it](https://temu.to/k/uamtwsafx3g)
-
 See into pipes, walls, or engine blocks with this mini cam.  
 📸 Dual-lens  
 🔦 LED light ring  
-🧠 Works for car, plumbing, or… treasure hunts?
+🧠 Perfect for car, plumbing, or treasure hunts.
 
----
 ### 🍋 4. Manual Citrus Juicer – Stainless Steel
 **AU$11.69** → [Squeeze here](https://temu.to/k/uhyd3clg50p)
+Juices like a beast, built like a tank.  
+🍊 Stainless steel power  
+🥇 Ultra-durable and wrist-friendly.
 
-Not just for lemons — it’s a *steel-forged wrist workout*.  
-🍊 Juices like a beast  
-🥇 Durable AF  
-🥃 Home bar bonus win
-
----
 ### 🍤 5. Deep Fryer Pan – Thermometer + Lid
 **AU$16.58** → [Crisp it](https://temu.to/k/u0b0rbvs8sx)
-
-DIY tempura, fish & chips, or crispy nuggz.  
+DIY tempura, fish & chips, or crispy chicken.  
 🔥 Heat-proof handle  
 🌡️ Thermometer included  
-🍗 Fits small kitchens
+🍗 Fits small kitchens.
 
 ---
 Want more weirdly satisfying Temu finds?  
@@ -129,7 +117,70 @@ Want more weirdly satisfying Temu finds?
 Temu’s still pumping out insane value — so we’ve rounded up **10 of the hottest trending drops** right now, handpicked from our newest product refresh.
 
 ---
-*... [truncated for brevity since you've already written this part]*
+### 🥾 1. Men's Retro Boots
+*AU$30.71* → [Shop Now](https://temu.to/k/uu03ynha2qp)
+
+Classic two-tone, rugged soles, and surprisingly durable. Fall/Winter approved.
+
+---
+### 👕 2. Casual Turtleneck Sweater
+*AU$1.57* → [Steal This](https://temu.to/k/umbb5g2laex)
+
+Looks 10x more expensive than it is. Lightweight fleece + high-end vibes.
+
+---
+### 👛 3. RFID Leather Wallet
+*AU$0.87* → [Grab One](https://temu.to/k/uu5i2qg6zsh)
+
+Slim, secure, giftable. Don’t let the price fool you — it’s real leather.
+
+---
+### 🛠️ 4. Furniture Lifter Roller Kit (Set of 5)
+*AU$14.48* → [Slide In](https://temu.to/k/u8vkqpjltul)
+
+Move heavy furniture solo. Yep, it actually works.
+
+---
+### 👖 5. Men's Classic Denim Jeans
+*AU$2.69* → [Add to Cart](https://temu.to/k/uf6k682mkg3)
+
+Clean fit. Light stretch. Work or weekend-friendly.
+
+---
+### 🎒 6. Multifunction Laptop Backpack
+*AU$3.49* → [Back It Up](https://temu.to/k/u4xmvs0q06r)
+
+Business, uni, or travel. This one’s sleek and shockingly roomy.
+
+---
+### ⌚ 7. LIGE Smart Watch w/ Wireless Call
+*AU$21.49* → [Get Smart](https://temu.to/k/untqe9jk39y)
+
+It makes calls. It counts steps. It doesn’t break your budget.
+
+---
+### 👟 8. Men’s Walking Boots
+*AU$1.87* → [Walk This Way](https://temu.to/k/u9ugubn8hne)
+
+Comfy, breathable, and low-key stylish. Great daily shoes.
+
+---
+### 🫙 9. 2-in-1 Oil Sprayer
+*AU$0.52* → [Oil Up](https://temu.to/k/ueibx9cioth)
+
+Spray or pour olive oil like a boss. Kitchen hack unlocked.
+
+---
+### 🔩 10. Rotating Ratchet Wrench
+*AU$1.01* → [Wrench It](https://temu.to/k/u7zyrlkhme5)
+
+360° tool for car fixes, flat packs, or general chaos.
+
+---
+🛒 Want the full list?  
+📦 [Check out our updated Temu grid page](/shop)
+
+*Prices valid at time of posting. Temu likes to shake it up, so check fast!*
 `
   },
   {
@@ -140,6 +191,8 @@ Temu’s still pumping out insane value — so we’ve rounded up **10 of the ho
     description: "Explore all the brand-new deals we just added to KeywordKode — with a quick spotlight on each item!",
     content: `
 At **KeywordKode**, we're always hunting down the best deals and hottest finds for you. We've just added a stack of new products, and they're absolute must-sees. Here's a quick look at what's new — with a short spotlight on each:
+
+---
 
 ### 🚗 Waterproof Heavy Duty Dog Seat Cover – AU$12.44
 Keep your car clean and your pet comfortable with this 100% waterproof, heavy-duty dog seat cover. Perfect for adventurous pups and messy rides!
@@ -171,7 +224,7 @@ Stay stylish and protected! These polarized sports sunglasses are perfect for cy
 ### 💪 Ultra Compact Deep Tissue Massage Gun – AU$1.44
 Relax sore muscles fast with this powerful handheld massage gun — high torque impact in a compact, elegant design.
 
-### 🧍 Heavy Duty Suspenders for Men – AU$9.89
+### 💺 Heavy Duty Suspenders for Men – AU$9.89
 Durable, adjustable, and airport-friendly — these X-back suspenders are built for big days and heavy lifting.
 
 ### 🐈‍⬛ 2-in-1 Cat Water Fountain & Feeder – AU$15.04
@@ -252,13 +305,8 @@ Organize cereals, grains, and pet food in this large-capacity, rotating storage 
 ### ☕ Rotating Coffee Capsule Holder – AU$16.09
 Streamline your coffee corner with this elegant rotating holder, designed to neatly store up to 40 capsules.
 
-Which one are you grabbing first? 🔥
-`
-}
-
+---
 Which one are you grabbing first? 🔥
 `
   }
 ];
-
-}
