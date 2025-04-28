@@ -11,6 +11,7 @@ import {
 import { Helmet } from 'react-helmet';
 import BlogPage from './blog/BlogPage';
 import PostPage from './blog/PostPage';
+import ProductPage from './pages/ProductPage';
 
 const categories = ['All', 'Tech', 'Home', 'Fashion', 'Tools'];
 const ITEMS_PER_PAGE = 9;
@@ -335,6 +336,7 @@ export default function App() {
         <Route path="/:category" element={<CategoryPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<PostPage />} />
+        <Route path="/products/:slug" element={<ProductPage />} />
       </Routes>
     </Router>
   );
