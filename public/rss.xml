@@ -1,26 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
 <rss version="2.0">
   <channel>
     <title>KeywordKode Blog</title>
     <link>https://keywordkode.com.au/blog</link>
     <description>Daily curated Temu tools, tech, fashion, and AI-powered product drops.</description>
     <language>en-au</language>
-    <lastBuildDate>Tue, 15 Apr 2025 12:00:00 +0000</lastBuildDate>
-
+    <lastBuildDate>Mon, 28 Apr 2025 12:46:06 GMT</lastBuildDate>
+    
     <item>
       <title>Top 3 Temu Tech Deals Under $10 in 2025</title>
       <link>https://keywordkode.com.au/blog/top-10-temu-tech-deals</link>
       <description>Explore the best-value tech gear Temu has to offer, all for under ten bucks.</description>
-      <pubDate>Tue, 15 Apr 2025 10:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Apr 2025 14:00:00 GMT</pubDate>
       <guid>https://keywordkode.com.au/blog/top-10-temu-tech-deals</guid>
     </item>
+  
+
     <item>
       <title>Temu Fashion Finds Under $5 That Are Shockingly Good</title>
       <link>https://keywordkode.com.au/blog/temu-fashion-finds-under-5</link>
       <description>These fashion picks prove that style doesn’t have to be expensive. Our top-rated pieces from Temu — all under AU$5.</description>
-  <pubDate>Wed, 16 Apr 2025 08:00:00 +0000</pubDate>
-  <guid>https://keywordkode.com.au/blog/temu-fashion-finds-under-5</guid>
-</item>
+      <pubDate>Tue, 15 Apr 2025 14:00:00 GMT</pubDate>
+      <guid>https://keywordkode.com.au/blog/temu-fashion-finds-under-5</guid>
+    </item>
+  
 
+    <item>
+      <title>Top 5 Viral DIY Tools on Temu You Didn’t Know You Needed</title>
+      <link>https://keywordkode.com.au/blog/top-5-diy-temu-tools</link>
+      <description>Uncover the most viral, budget-friendly DIY tools trending on Temu right now — all under $35!</description>
+      <pubDate>Tue, 15 Apr 2025 14:00:00 GMT</pubDate>
+      <guid>https://keywordkode.com.au/blog/top-5-diy-temu-tools</guid>
+    </item>
+  
+
+    <item>
+      <title>🔥 10 Trending Temu Finds in April 2025 — All Under AU$35</title>
+      <link>https://keywordkode.com.au/blog/latest-temu-deals-april2025</link>
+      <description>From retro boots to smart gadgets and viral kitchen gear — here are our latest top picks under $35 you should definitely check out.</description>
+      <pubDate>Thu, 17 Apr 2025 14:00:00 GMT</pubDate>
+      <guid>https://keywordkode.com.au/blog/latest-temu-deals-april2025</guid>
+    </item>
+  
+
+    <item>
+      <title>Fresh Finds: Latest Deals Added to KeywordKode!</title>
+      <link>https://keywordkode.com.au/blog/fresh-finds-keywordkode-april-2025</link>
+      <description>Explore all the brand-new deals we just added to KeywordKode — with a quick spotlight on each item!</description>
+      <pubDate>Sun, 27 Apr 2025 14:00:00 GMT</pubDate>
+      <guid>https://keywordkode.com.au/blog/fresh-finds-keywordkode-april-2025</guid>
+    </item>
+  
   </channel>
 </rss>
