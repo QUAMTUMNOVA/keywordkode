@@ -43,6 +43,113 @@ function SiteHeader() {
   );
 }
 
+// Recommended Gumroad Resources Block
+
+export default function RecommendedResources() {
+  const resources = [
+    {
+      title: "🎭 Puppet Prompts: Starter Chaos Pack (Free)",
+      price: "A$0+",
+      image: "/images/puppet.png",
+      link: "https://quantumnovahq.gumroad.com/l/starter-chaos?layout=profile&a=908554003",
+    },
+    {
+      title: "Elite Traders Blueprint: The Trading Journey from start to finish [All levels]",
+      price: "$2,000",
+      image: "/images/ELITEtrader.jpg",
+      link: "https://rogers1906.gumroad.com/l/ELITETRADER?layout=discover&a=908554003",
+    },
+    {
+      title: "Internet Pipes: Sift Through the Treasure Trove of Online Data",
+      price: "$500+",
+      image: "/images/internetpipescalendar3.png",
+      link: "https://stephsmithio.gumroad.com/l/internet?layout=discover&a=908554003",
+    },
+    {
+      title: "The Art of X: Build a Business That Makes You $100/Day (UPDATED MARCH 2025)",
+      price: "$297",
+      image: "/images/X gumroad Banner.png",
+      link: "https://lifemathmoney.gumroad.com/l/TwitterGuide?layout=discover&a=908554003",
+    },
+    {
+      title: "The essential guide to architecture and interior designing - Ebook",
+      price: "$47",
+      image: "/images/yb4dto7lmtnoufuiq97n1gu8ytq1.jpg",
+      link: "https://07sketches.gumroad.com/l/xlskB?layout=discover&a=908554003",
+    },
+    {
+      title: "BatFi – Increase Your Mac's Battery Lifespan",
+      price: "$15",
+      image: "/images/itjustworks.jpg",
+      link: "https://micropixels.gumroad.com/l/batfi?layout=discover&a=908554003",
+    },
+    {
+      title: "The Sober Fitness Bundle",
+      price: "$100+",
+      image: "/images/sober.jpg",
+      link: "https://soberfitness.gumroad.com/l/thesoberfitnessbundle?layout=discover&a=908554003",
+    },
+    {
+      title: "The Art of Copywriting: Learn to write emails, funnels, and landing pages that SELL",
+      price: "$497",
+      image: "/images/TAOC Cover-min.png",
+      link: "https://lifemathmoney.gumroad.com/l/copy?layout=discover&a=908554003",
+    },
+    {
+      title: "The Software Engineer's Guidebook",
+      price: "$25",
+      image: "/images/EngGuidebook eBook Gumroad.png",
+      link: "https://gergelyorosz.gumroad.com/l/engguidebook?layout=discover&a=908554003",
+    },
+    {
+      title: "HFT NQ Minute Bot",
+      price: "$400",
+      image: "/images/q3.png",
+      link: "https://hftalgo.gumroad.com/l/minbot?layout=discover&a=908554003",
+    },
+    {
+      title: "Notion Money Academy",
+      price: "$997",
+      image: "/images/notion.png",
+      link: "https://pascio.gumroad.com/l/thenotioncreatorbundle?layout=discover&a=908554003",
+    },
+    {
+      title: "Learn Apex Platform",
+      price: "$500",
+      image: "/images/Gumroad Banner resized (11).png",
+      link: "https://prismcloud.gumroad.com/l/dhdbgw?layout=discover&a=908554003",
+    },
+  ];
+
+  return (
+    <section className="py-12 px-4 bg-gray-50">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">Recommended Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {resources.map((item, i) => (
+            <a
+              href={item.link}
+              key={i}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden border"
+            >
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-md mb-1">{item.title}</h3>
+                <span className="text-sm text-gray-500">{item.price}</span>
+              </div>
+            </a>
+          ))}
+      </div>
+    </section>
+  );
+}
+
 
 const temuProducts = [
   { id: 1, name: 'Geevon Weather Station', price: 'AU$34.63', link: 'https://temu.to/k/uo4zp3xk1nm', image: '/geevon-weather-station.jpg', category: 'Home' },
