@@ -45,7 +45,7 @@ function SiteHeader() {
 
 // Recommended Gumroad Resources Block
 
-export default function RecommendedResources() {
+function RecommendedResources() {
   const resources = [
     {
       title: "🎭 Puppet Prompts: Starter Chaos Pack (Free)",
@@ -435,7 +435,7 @@ function HomePage() {
 }
 
 
-
+export { RecommendedResources };
 export default function App() {
   return (
     <Router>
