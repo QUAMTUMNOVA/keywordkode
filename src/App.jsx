@@ -123,7 +123,7 @@ function RecommendedResources() {
  return (
   <section className="py-12 px-4 bg-gray-50">
     <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6">Recommended Resources</h2>
+      <h2 className="text-3xl font-bold mb-6 text-gray-800">Recommended Resources</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {resources.map((item, i) => (
           <a
@@ -141,10 +141,14 @@ function RecommendedResources() {
             <div className="p-4">
               <h3 className="font-semibold text-md mb-1">{item.title}</h3>
               <span className="text-sm text-gray-500">{item.price}</span>
+              
             </div>
           </a>
         ))}
       </div>
+        <p className="text-sm text-gray-600 mt-6 max-w-3xl mx-auto text-center">
+            Discover top-rated affiliate tools, resources, and digital guides — handpicked from Gumroad and Temu. From financial blueprints to productivity tools, KeywordKode helps you explore high-value solutions in one place.
+        </p>
     </div>
   </section>
 );
