@@ -118,7 +118,55 @@ function RecommendedResources() {
       image: "/Gumroad Banner resized (11).png",
       link: "https://prismcloud.gumroad.com/l/dhdbgw?layout=discover&a=908554003",
     },
-  ];
+    {
+      title: "Mosh-Pro",
+      price: "$49",
+      image: "/gumroad banner one time.jpg",
+      link: "https://airtight.gumroad.com/l/kqeYS?layout=discover&a=908554003",
+    },
+    {
+      title: "Stylized Smart Material 3.0 - Substance 3D Painter",
+      price: "$12.99",
+      image: "/01.jpg",
+      link: "https://3dex.gumroad.com/l/3dexV3?layout=discover&a=908554003",
+   },
+   {
+      title: "Supercharge",
+      price: "$16+",
+      image: "/screenshot1.jpg",
+      link: "https://sindresorhus.gumroad.com/l/supercharge?layout=discover&a=908554003",
+   },
+   {
+      title: "The Ultimate Web Scraping Course",
+      price: "$1,000",
+      image: "/The Ultimate Web Scraping Course (1).png",
+      link: "https://adrianhorning.gumroad.com/l/the-ultimate-web-scraping-course?layout=discover&a=908554003",
+   },
+   {
+      title: "Deployment from Scratch",
+      price: "$35",
+      image: "/1u3erxyczn3wekybqsrg1jtwvgv4.jpg",
+      link: "https://strzibny.gumroad.com/l/deploymentfromscratch?layout=discover&a=908554003",
+   },
+   {
+      title: "Testing Swift",
+      price: "$50",
+      image: "/gx5bzjuku17rwxbwkyu04g1z7o2b.jpg",
+      link: "https://twostraws.gumroad.com/l/testing-swift?layout=discover&a=908554003",
+   },
+   {
+      title: "Hacking with watchOS",
+      price: "$50",
+      image: "/8u0xdmkgwzjjobhop08u1pn85mum.jpg",
+      link: "https://twostraws.gumroad.com/l/hwwatchos?layout=discover&a=908554003",
+   },
+   {
+      title: "Professional Photoshop UXP (Single User)",
+      price: "$170",
+      image: "/Gumroad_Hero_SingleUser.jpg",
+      link: "https://davidebarranca.gumroad.com/l/ProPSUXP?layout=discover&a=908554003",
+   }
+ ];
 
  return (
   <section className="py-12 px-4 bg-gray-50">
