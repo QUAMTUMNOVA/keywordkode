@@ -196,7 +196,7 @@ export const products = [
     link: "https://temu.to/k/uwzqs17gf3x",
     image: "/lige-smart-watch.jpg",
     category: "Tech"
-  }
+  },
   {
     slug: "manual-citrus-juicer-stainless-steel",
     title: "Stainless Steel Manual Citrus Juicer – Lemon/Orange Squeezer",
