@@ -55,7 +55,7 @@ function RecommendedResources() {
     {
       title: "Elite Traders Blueprint: The Trading Journey from start to finish [All levels]",
       price: "$2,000",
-      image: "/ELITEtrader.jpg",
+      image: "/ELITEbundle.jpg",
       link: "https://rogers1906.gumroad.com/l/ELITETRADER?layout=discover&a=908554003",
     },
     {
