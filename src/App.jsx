@@ -44,7 +44,7 @@ function SiteHeader() {
 }
 
 // Recommended Gumroad Resources Block
-
+<RecommendedResources />
 function RecommendedResources() {
   const resources = [
     {
