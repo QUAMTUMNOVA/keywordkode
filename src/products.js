@@ -394,7 +394,7 @@ export const products = [
     link: "https://temu.to/k/ud41yb1c9ht",
     image: "/electric-grinder.jpg",
     category: "Home"
-  }
+  },
   {
     slug: "waterproof-heavy-duty-dog-seat-cover",
     title: "Waterproof Heavy Duty Dog Seat Cover",
