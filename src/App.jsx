@@ -165,6 +165,102 @@ function RecommendedResources() {
       price: "$170",
       image: "/Gumroad_Hero_SingleUser.jpg",
       link: "https://davidebarranca.gumroad.com/l/ProPSUXP?layout=discover&a=908554003",
+   },
+   {
+      title: "Prompt Engineering from Zero to Hero - Master the Art of AI Interaction",
+      price: "$59",
+      image: "/20250212_Cover4 (2)-1.png",
+      link: "https://nirdiamant.gumroad.com/l/mtxrfk?layout=discover&a=908554003",
+   },
+   {
+      title: "Django for Beginners, Fifth Edition",
+      price: "$49.99",
+      image: "/title_page.png",
+      link: "https://wsvincent.gumroad.com/l/aFiMm?layout=discover&a=908554003",
+   },
+   {
+      title: "StoryRadar: Advanced Story Viewer for Agencies & VIP",
+      price: "$2,480",
+      image: "/storyradar-2.jpeg",
+      link: "https://tropicalabs.gumroad.com/l/storyradar?layout=discover&a=908554003",
+   },
+   {
+      title: "Ecommerce with Next.js (extended version, 22+ hours)",
+      price: "$19",
+      image: "/mern-ecommerce2-gumroad.jpg",
+      link: "https://codingwithdawid.gumroad.com/l/ecommerce?layout=discover&a=908554003",
+   },
+   {
+      title: "Game Boy Coding Adventure",
+      price: "$10",
+      image: "/screenshot_cover.png",
+      link: "https://mdagois.gumroad.com/l/CODQn?layout=discover&a=908554003",
+   },
+   {
+      title: "Better Keyframing! (Music Overlay Script)",
+      price: "$10",
+      image: "/pgh4yp2nxiayiqmufkgkeoqliw1t.jpg",
+      link: "https://surfknasen.gumroad.com/l/XccBE?layout=discover&a=908554003",
+   },
+   {
+      title: "Tao of Node",
+      price: "$19",
+      image: "/og (2).png",
+      link: "https://alexanderkondov.gumroad.com/l/tao-of-node?layout=discover&a=908554003",
+   },
+   {
+      title: "Cryptocurrency Master Course",
+      price: "$333",
+      image: "/Cryptocurrency Master Course-3.png",
+      link: "https://jamescryptoguru.gumroad.com/l/CryptocurrencyMasterCourse?layout=discover&a=908554003",
+   },
+   {
+      title: "Tokyo Back Alleys collection",
+      price: "$250",
+      image: "/image (78).png",
+      link: "https://jamajurabaev.gumroad.com/l/usolov?layout=discover&a=908554003",
+   },
+   {
+      title: "StoryRadar Elite - View Stories to Attract Raving Fans",
+      price: "$800 a month",
+      image: "/777777.png",
+      link: "https://tropicalabs.gumroad.com/l/storyradar-elite?layout=discover&a=908554003",
+   }, 
+   {
+      title: "The Watercolor MaxPack - Brushes for Procreate",
+      price: "$25",
+      image: "/hpok2840il6bn752caf3eoia2019.jpg",
+      link: "https://maxulichney.gumroad.com/l/watercolormaxpack?layout=discover&a=908554003",
+   },
+  {
+      title: "ALL IN ONE SOUND LIBRARY BUNDLE",
+      price: "$25+",
+      image: "/FTUS - Gumroad banners.jpg",
+      link: "https://ftus.gumroad.com/l/allinonebundle?layout=discover&a=908554003",
+   },
+   {
+      title: "3D Cars: Inside and Out in Blender",
+      price: "$60",
+      image: "/Mountain-Back-1.jpg",
+      link: "https://cgmasters.gumroad.com/l/3d-cars?layout=discover&a=908554003",
+   },
+   {
+      title: "Mech Squad Collection",
+      price: "$250",
+      image: "/BMS_MinGuen_Promo_V1_Topview.jpg",
+      link: "https://jamajurabaev.gumroad.com/l/reCkX?layout=discover&a=908554003",
+   },
+   {
+      title: "Ultimate Blender Procedural Material Pack",
+      price: "$75+",
+      image: "/Ultimate Procedural Material Pack-0.0.13.jpg",
+      link: "https://ryankingart.gumroad.com/l/ultimate-materials?layout=discover&a=908554003",
+   },
+   {
+      title: "DAUB® SuperBundle - 572+ Pro Tools and 60+ Textures for Clip Studio Paint",
+      price: "€16.99",
+      image: "/vwkevp3ns0pxdhl04bmafjppkz06.jpg",
+      link: "https://daub.gumroad.com/l/EkMc?layout=discover&a=908554003",
    }
  ];
 
