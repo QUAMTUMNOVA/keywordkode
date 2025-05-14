@@ -149,6 +149,7 @@ function RecommendedResources() {
     </div>
   </section>
 );
+}
 
 
 
