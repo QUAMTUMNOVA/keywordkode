@@ -44,7 +44,6 @@ function SiteHeader() {
 }
 
 // Recommended Gumroad Resources Block
-<RecommendedResources />
 function RecommendedResources() {
   const resources = [
     {
@@ -410,6 +409,7 @@ function HomePage() {
       <div className="w-full max-w-6xl mx-auto space-y-10">
         <SiteHeader />
 
+        <RecommendedResources />
         <div className="flex justify-center flex-wrap gap-3 pt-2">
           {categories.slice(1).map((cat) => (
             <Link
