@@ -583,7 +583,7 @@ function HomePage() {
         <SiteHeader />
 
         {/* KeywordKode Hero Banner */}
-      <section className="relative w-full h-[90vh] overflow-hidden">
+    <section className="relative w-full h-[90vh] overflow-hidden">
         <img
          src="/kk-hero.jpg"
          alt="KeywordKode Hero Banner"
@@ -594,11 +594,10 @@ function HomePage() {
       <p className="mt-4 text-lg md:text-xl text-lime-100 max-w-2xl drop-shadow-md">
       The AI command center for SEO dominance, affiliate automation & content insight.
       </p>
-  </div>
-  <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
-</section>
+      </div>
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
+    </section>
 
-  </section>
 
         <RecommendedResources />
         <div className="flex justify-center flex-wrap gap-3 pt-2">
