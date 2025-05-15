@@ -47,7 +47,7 @@ function SiteHeader() {
 
 <section className="relative w-full h-[90vh] overflow-hidden">
   <img
-    src="/public/kk-hero.jpg"
+    src="/kk-hero.jpg"
     alt="KeywordKode Hero Banner"
     className="absolute top-0 left-0 w-full h-full object-cover"
   />
@@ -578,7 +578,7 @@ function HomePage() {
         {/* KeywordKode Hero Banner */}
         <section className="relative w-full h-[90vh] overflow-hidden">
         <img
-          src="/public/kk-hero.jpg"
+          src="/kk-hero.jpg"
          alt="KeywordKode Hero Banner"
          className="absolute top-0 left-0 w-full h-full object-cover"
         />
